@@ -18,14 +18,23 @@ and can be widely used in industrial, communication, servo drive, and other fiel
 Features:
 
 QN48P package 
+
 Embedded ARM Cortex-M3 hardcore processor 
+
 Jtag Configuration Mode
+
 27MHz clock crystal
+
 2 key switches
+
 1 power LED (green)
+
 2  user lights (green)
+
 256Kbit flash 
+
 2 sets of FPC extended IO ports
+
 power supply w/ voltage reverse protection
 
 
