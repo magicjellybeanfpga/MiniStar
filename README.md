@@ -1,6 +1,6 @@
-# MiniStar
+# MagicJellyBean
 
-<img src="pic/MiniStar_board_thumbnail.jpg" align="right">
+<img src="pic/MJB_mini_256.jpg" align="right">
 
 MagicJellyBean is an organization established to enable hobbyists, academic researchers and electronic enthusiasts with FPGA and microcontroller capabilities for embedded edge electronics projects. The intent is to create a community of like-minded individuals who can share ideas, projects and wisdom in the FPGA and microcontroller field through an affordable and easy to use platform.
 
@@ -9,33 +9,55 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 Enables a seamless connection between programmable logic devices and embedded processors. It is compatible with a wide range of peripheral device standards, significantly reduces user costs, and can be widely used in industrial, communication, servo drive, and other fields.
 
 
-###Features:
+<img src="pic/MiniStar_board_thumbnail.jpg" align="right">
 
-Low Cost FPGA+MCU Embedded Computer Board
+### Features:
 
-GOWIN GW1NS-4C µSoC FPGA
+* Low Cost FPGA+MCU Embedded Computer Board
 
-4.6K LUT FPGA Fabric
+* GOWIN GW1NS-4C µSoC FPGA
 
-ARM Cortex-M3 Embedded MCU
+* 4.6K LUT FPGA Fabric
 
-Embedded 256Kbit Flash
+* ARM Cortex-M3 Embedded MCU
 
-High Speed Flex Connectors for GPIO and LVDS IO
+* Embedded 256Kbit Flash
 
-Selectable IO Voltages
+* High Speed Flex Connectors for GPIO and LVDS IO
 
-USB-C to JTAG Programmer
+* Selectable IO Voltages
 
-J-LINK Debugger Header
+* USB-C to JTAG Programmer
 
-27Mhz Mems Oscillator
+* J-LINK Debugger Header
 
-64-Mbit external SPI Flash
+* 27Mhz Mems Oscillator
 
-2 - Push Buttons, 2 – User LEDs
+* 64-Mbit external SPI Flash
 
-Power LED
+* 2 - Push Buttons, 2 – User LEDs
+
+* Power LED
+
+## MiniStar Experiment Board
+
+Take your MiniStar board to the next level with this fully compatible experimental board. Explore your programmable logic device to the limits!
+
+
+<img src="pic/MiniStar_experiment_carrier_thumbnail.jpg" align="right">
+
+
+### Features:
+
+* High Speed Flex Connectors to MagicStar
+* 4 – Toggle Switches
+* 4 – Push Buttons
+* Four Digit Seven-Segment Display
+* Three 0.1” headers
+* 8 - LEDs
+
+
+
 
 Directory Information:
 
