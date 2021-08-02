@@ -16,24 +16,32 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 
 Features:
 
-QN48P package 
+Low Cost FPGA+MCU Embedded Computer Board
 
-Embedded ARM Cortex-M3 hardcore processor 
+GOWIN GW1NS-4C µSoC FPGA
 
-Jtag Configuration Mode
+4.6K LUT FPGA Fabric
 
-27MHz clock crystal
+ARM Cortex-M3 Embedded MCU
 
-2 key switches
+Embedded 256Kbit Flash
 
-1 power LED (green)
+High Speed Flex Connectors for GPIO and LVDS IO
 
-2  user lights (green)
+Selectable IO Voltages
 
-256Kbit flash 
+USB-C to JTAG Programmer
 
-2 sets of FPC extended IO ports
+J-LINK Debugger Header
 
-power supply w/ voltage reverse protection
+27Mhz Mems Oscillator
+
+64-Mbit external SPI Flash
+
+2 - Push Buttons, 2 – User LEDs
+
+Power LED
+
+
 
 
