@@ -1,5 +1,7 @@
 # MiniStar
 
+<img src="https://ai.github.io/MiniStar/pic/Ministar_board.jpeg" align="right"
+
 MagicJellyBean is an organization established to enable hobbyists, academic researchers and electronic enthusiasts with FPGA and microcontroller capabilities for embedded edge electronics projects. The intent is to create a community of like-minded individuals who can share ideas, projects and wisdom in the FPGA and microcontroller field through an affordable and easy to use platform.
 
 Directory Information:
