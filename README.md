@@ -63,7 +63,7 @@ Directory Information:
 
 */pic - high res and thumbnail pictures of the minieye and accessory boards
 
-*/doc - user guide
+*/doc - user guide 
 
 */pcb - schematic pdfs
 
