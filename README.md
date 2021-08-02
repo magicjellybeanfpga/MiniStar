@@ -44,7 +44,7 @@ Enables a seamless connection between programmable logic devices and embedded pr
 Take your MiniStar board to the next level with this fully compatible experimental board. Explore your programmable logic device to the limits!
 
 
-<img src="pic/MiniStar_experiment_carrier_thumbnail.jpg" align="right">
+<img src="" align="right">
 
 
 ### Features:
