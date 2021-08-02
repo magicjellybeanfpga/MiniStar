@@ -56,6 +56,12 @@ Take your MiniStar board to the next level with this fully compatible experiment
 * Three 0.1” headers
 * 8 - LEDs
 
+## About Us
+
+MagicJellyBean is an organization established to enable hobbyists, academic researchers and electronic enthusiasts with FPGA and microcontroller capabilities for embedded edge electronics projects. The intent is to create a community of like-minded individuals who can share ideas, projects and wisdom in the FPGA and microcontroller field through an affordable and easy to use platform.
+
+<img src="pic/logo.png" align="right">
+
 
 
 
