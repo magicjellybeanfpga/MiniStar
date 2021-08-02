@@ -4,19 +4,12 @@
 
 MagicJellyBean is an organization established to enable hobbyists, academic researchers and electronic enthusiasts with FPGA and microcontroller capabilities for embedded edge electronics projects. The intent is to create a community of like-minded individuals who can share ideas, projects and wisdom in the FPGA and microcontroller field through an affordable and easy to use platform.
 
-Directory Information:
+## MiniStar_Board
 
-*/pic - high res and thumbnail pictures of the minieye and accessory boards
+Enables a seamless connection between programmable logic devices and embedded processors. It is compatible with a wide range of peripheral device standards, significantly reduces user costs, and can be widely used in industrial, communication, servo drive, and other fields.
 
-*/doc - user guide
 
-*/pcb - schematic pdfs
-
-*/rtl - FPGA example designs
-
-*/sw - any additional software for the examples
- 
-Features:
+###Features:
 
 Low Cost FPGA+MCU Embedded Computer Board
 
@@ -43,6 +36,19 @@ J-LINK Debugger Header
 2 - Push Buttons, 2 – User LEDs
 
 Power LED
+
+Directory Information:
+
+*/pic - high res and thumbnail pictures of the minieye and accessory boards
+
+*/doc - user guide
+
+*/pcb - schematic pdfs
+
+*/rtl - FPGA example designs
+
+*/sw - any additional software for the examples
+ 
 
 
 
