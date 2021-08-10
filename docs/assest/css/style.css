@@ -1,0 +1,265 @@
+/* ============================
+        Google fonts
+============================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+/* ============================
+        common style
+============================= */
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.buy-now-btn{
+    background-color: #FCB605;
+    color: #000;
+}
+.primary-btn{
+    background-color: #4472C4;
+    color: #FFF;
+}
+
+
+.navbar-toggler-icon{
+    width: 30px;
+    height: 2px;
+    background-color: #FFF;
+    display: block;
+}
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #FFF;
+}
+.navbar-toggler-icon::before{
+    transform: translateY(-10px);
+}
+.navbar-toggler-icon::after{
+    transform: translateY(8px);
+}
+button.navbar-toggler{
+    padding: 0px .75rem;
+    box-shadow: 0 0 0 transparent!important;
+    transition: 0s;
+}
+#header button#navbar-toggler-btn{
+    border-color: transparent;
+    border:none;
+    border-radius: 0;
+}
+button#navbar-toggler-btn:focus{
+    border-color: transparent;
+    border:none;
+    outline: none;
+}
+/* ============================
+  header section style
+============================= */
+#header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.247)), url(../images/background.png);
+}
+.navbar-bg{
+    background-color: rgba(128, 128, 128, 0.24);
+}
+.navbar-wrapper{
+    padding: 0 3%;
+}
+a .navbar-logo{
+    width: 130px;
+}
+.c-nav-link:link,
+.c-nav-link:visited{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #FFF;
+    transition: all 0.3s;
+    display: block;
+}
+.c-nav-link:active,
+.c-nav-link:hover{
+    color: #8CC640;
+}
+.hero-box{
+    padding: 30px 0 50px 0;
+}
+.hero-desc{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+}
+.hero-title{
+    font-size: 28px;
+    color: #fff;
+    padding-top: 20px;
+}
+@media only screen and (max-width:768px){
+    .mt-md-sm{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width:425px){
+    .hero-desc{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .hero-title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+/* ============================
+  Gadget preview section style
+============================= */
+#gadget-preview{
+    padding: 50px 0;
+}
+.gadget-thumbnail img{
+    width: 100%;
+    height: auto;
+}
+.gadget-item{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 0 15px;
+}
+.gadget-info{
+    padding: 15px;
+}
+.gadget-title{
+    font-size: 28px;
+    line-height: 40px;
+}
+.gadget-desc,
+.gadget-desc-list{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    font-weight: 300;
+}
+.gadget-btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+@media only screen and (max-width:1100px){
+    .gadget-btn-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .btn{
+        margin: 5px 10px;
+    }
+}
+@media only screen and (max-width:994px){
+    .gadget-item{
+        margin: 20px 0px 0 0px;
+    }
+    .gadget-desc,
+    .gadget-desc-list{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* ============================
+  hardware page style
+============================= */
+#hardware-section{
+    padding: 50px 0px;
+}
+.hardware-thumbnail{
+    text-align: center;
+}
+.hardware-thumbnail img{
+    max-width: 100%;
+    height: 500px;
+    display: inline-block;
+}
+@media only screen and (max-width:768px){
+    .hardware-thumbnail img{
+        height: 300px;
+    }
+}
+
+/* ============================
+  about us page style
+============================= */
+.about-us-desc {
+    padding: 40px 0;
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+@media only screen and (max-width:425px){
+    .about-us-desc {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+/* ============================
+  software page style
+============================= */
+#software-section{
+    padding: 10px 0 60px 0;
+}
+.software-box-wrapper{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 50px 0 15px 0;
+}
+.c-container{
+    padding: 0 3%;
+}
+.software-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.gowin-thumbnail img{
+    width: 100%;
+    height: auto;
+}
+.gowin-btn a.btn.download-btn {
+    display: block;
+    background: #4472C4;
+}
+p.gowin-desc {
+    font-size: 15px;
+    color: #000;
+    font-weight: 300;
+}
+@media only screen and (max-width:425px){
+    p.gowin-desc {
+        font-size: 13px;
+    }
+}
