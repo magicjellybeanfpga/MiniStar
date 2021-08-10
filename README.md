@@ -77,6 +77,8 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 * [Github Discussions](https://github.com/magicjellybeanfpga/MiniStar/discussions)
 * [Github Issues](https://github.com/magicjellybeanfpga/MiniStar/issues/)
 
+## Demo Videos
+
 
 
 
@@ -85,7 +87,7 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 
 ## Directory Information:
 
-*/pic - high res and thumbnail pictures of the minieye and accessory boards
+*/pic - high res and thumbnail pictures of the minieye and accessory boards and Demo videos
 
 */doc - user guide 
 
