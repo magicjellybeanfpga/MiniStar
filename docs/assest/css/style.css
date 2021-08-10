@@ -105,7 +105,7 @@ a .navbar-logo{
     color: #8CC640;
 }
 .hero-box{
-    padding: 30px 0 50px 0;
+    padding: 0px 0 0px 0;
 }
 .hero-desc{
     font-size: 18px;
@@ -154,6 +154,7 @@ a .navbar-logo{
     line-height: 40px;
 }
 .gadget-desc,
+
 .gadget-desc-list{
     font-size: 16px;
     line-height: 26px;
@@ -168,7 +169,7 @@ a .navbar-logo{
 }
 @media only screen and (max-width:1100px){
     .gadget-btn-wrapper{
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         justify-content: center;
     }
     .btn{
