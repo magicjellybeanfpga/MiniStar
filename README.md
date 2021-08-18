@@ -73,9 +73,8 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 
 ## Demo Videos
 
-* [2 different number display](https://drive.google.com/file/d/1SkSTpZpgkToiEqxOQOj1OJJtra5CSwrL/view?usp=sharing)
-* [Number 8 on and off](https://drive.google.com/file/d/1I2B5L1T9cH_DUUw8990EiqQWrjz8icb0/view?usp=sharing)
-* [Dip Switch demo PDF](https://drive.google.com/file/d/1-MgaaKb_cU5P86ALG2an3MPtoGNaqA3z/view?usp=sharing)
+* [2 different number display](https://www.youtube.com/watch?v=PhR9LzJD-3Y)
+* [Number 8 on and off](https://youtu.be/i1RyFmuLz5g)
 
 
 
