@@ -73,8 +73,8 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 
 ## Demo Videos
 
-* [2 different number display](https://www.youtube.com/watch?v=PhR9LzJD-3Y)
-* [Number 8 on and off](https://youtu.be/i1RyFmuLz5g)
+* [Dip Switch Displaying Different Numbers](https://www.youtube.com/watch?v=PhR9LzJD-3Y)
+* [Dip Switch Displaying Single Number (on/off)](https://youtu.be/i1RyFmuLz5g)
 
 
 
