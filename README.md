@@ -84,15 +84,15 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 
 ## Directory Information:
 
-*/pic - high res and thumbnail pictures of the minieye and accessory boards and Demo videos
+* /pic - high res and thumbnail pictures of the minieye and accessory boards and Demo videos
 
-*/doc - user guide 
+* /doc - user guide 
 
-*/pcb - schematic pdfs
+* /pcb - schematic pdfs
 
-*/rtl - FPGA example designs
+* /rtl - FPGA example designs
 
-*/sw - any additional software for the examples
+* /sw - any additional software for the examples
  
 
 
