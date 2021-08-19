@@ -1,0 +1,36 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v'
+Analyzing Verilog file 'D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_osc\gowin_osc.v'
+Analyzing Verilog file 'D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\top.v'
+Compiling module 'top'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\top.v":3)
+Compiling module 'Gowin_OSC'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_osc\gowin_osc.v":9)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'oscen'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\top.v":13)
+Compiling module 'Gowin_EMPU_Top'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":1035)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\src\gowin_empu\gowin_empu.v":0)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[95%] Generate netlist file "D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\impl\gwsynthesis\fpga_led.vg" completed
+[100%] Generate report file "D:\gaoyunfpgademo\m3demo1\switch_run\fpga_led\impl\gwsynthesis\fpga_led_syn.rpt.html" completed
+GowinSynthesis finish
