@@ -61,11 +61,11 @@ You can modify this design on the basis of the digital tube project. Open Led.uv
 
 1. Set GPIO register; set GPIO[15:12] as the input of dip switch and GPIO[11:0] as the output of digital tube.
 
-<img src="/projects/Switch Run Demo/switch_run/images/Code line 1.png" width= "400">
+<img src="/projects/Switch Run Demo/switch_run/images/Code line 1.png" width= "200">
 
 2. Read the status of the dip switch and save it in the upper four bits [15:12] of the input data register DATA, and shift the upper four bits data right by four bits to write the status of the dip switch in the high-byte lower four bits [11:8] of the output register, which corresponds to the common terminal DIG1, DIG2,DIG3, and DIG4 of the digital tube; then set the lower 8 bits of the output register to 0 , which means that the A to DP segment of the digital tube is all low ( the coded value of 8). The code is as follows:
 
-<img src="/projects/Switch Run Demo/switch_run/images/Code line 2.png" width= "400">
+<img src="/projects/Switch Run Demo/switch_run/images/Code line 2.png" width= "200">
 
 When the dip switch is set to low, DIG1 to DIG4 will be low and the ommon anode digital tube will be off. When the dip switch is set to high, DIG1 to DIG4 will be high and the ommon anode digital tube will display number 8. The physical picture is shown in Figure 6, in which SW1 and SW2 are set to low, SW3 and SW4 are set to high; that is, digital tube 1 and 2 are off, digital tube 3 and 4 display.
 
