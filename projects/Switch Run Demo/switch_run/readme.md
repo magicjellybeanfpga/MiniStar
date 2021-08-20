@@ -4,7 +4,7 @@ You will learn how to use GPIO as the input to identify the status of dip switch
 
 As shown in Figure 1, you can use four dip switches on the extension board to control four 7-segment digital tubes to achieve the cyclic display of the numbers 1 to 4.
 
-<img src="docs/assest/images/MJB_mini_256.jpg" align="right">
+<img src="projects/Switch Run Demo/pic/Dip switch ministar board pic.png" align="center">
 
 Figure 1 Mini-Star Development Board(GW1NSR-LV4CQN48P)and Extension
 
