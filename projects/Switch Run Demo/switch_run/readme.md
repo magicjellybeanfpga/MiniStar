@@ -19,3 +19,5 @@ GPIO Introduction
 
 Gowin GW1NSR-LV4CQN48P is used as the platform in this demo. From DS861, GW1NSR series of FPGA Products Datasheet, you can learn the GPIO module and know there is a Cortex-M3 RISC embedded in this chip. The key to this demo is how to control the GPIO as the output. The design information listed below is excerpted from the datasheet.
 
+<img src="/projects/Switch Run Demo/switch_run/images/SOC.png" width= "400">
+
