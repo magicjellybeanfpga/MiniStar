@@ -6,4 +6,14 @@ You will learn the basic principle and programming of watchdog by this demo. As 
 
 <img src="/projects/Watchdog Demo/wdog_run/pic/Board pic (1).png" width= "400">
 
-[Watchdog Demo project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Watchdog%20Demo/wdog_run)
+[Watchdog Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Watchdog%20Demo/wdog_run)
+
+## Dip Switch Demo
+
+You will learn how to use GPIO as the input to identify the status of dip switches to control the digital tube to display the corresponding numbers by this demo.
+
+You can use four dip switches on the extension board to control four 7-segment digital tubes to achieve the cyclic display of the numbers 1 to 4.
+
+<img src="/projects/Switch Run Demo/switch_run/images/Dip_switch_ministar_board_pic.jpg" width= "400">
+
+[Dip Switch Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Switch%20Run%20Demo/switch_run)
