@@ -25,3 +25,25 @@ You will learn how to use GPIO as the output by this demo. You can write code to
 <img src="/projects/Led Demo/led_run/pic/board pic (1).png" width= "400">
 
 [LED Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Led%20Demo/led_run)
+
+## Keys Input Demo
+
+You will learn how to use GPIO as the input by this demo. As shown in Figure 1, you can use the four keys KEY1~KEY4 on the extension board to control four LEDs on/off.
+
+<img src="/projects/Keys Input Demo/keyin_run/pic/board pic (1).png" width= "400">
+
+[Keys Input Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Keys%20Input%20Demo/keyin_run)
+
+## Digital Tube Demo
+
+You will learn how to use GPIO as the output to control the digital tube to display numbers by this demo. As shown in Figure 1, the four 7-segment digital tubes on the extension board are used to achieve the cyclic display of numbers 0 to 9.
+
+<img src="/projects/Digital Tube Demo/seg_run/pic/Board pic (1).png" width= "400">
+
+[Keys Input Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Digital%20Tube%20Demo/seg_run)
+
+## External Interrupt Demo 
+
+You will learn how to use GPIO as external interrupt and output, and how to program the KEY1 as an external interrupt to control the LED on and off by this demo. As in Figure 1, the KEY1 on the extension board controls one LED on and off.
+
+
