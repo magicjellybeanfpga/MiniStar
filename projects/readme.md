@@ -40,7 +40,7 @@ You will learn how to use GPIO as the output to control the digital tube to disp
 
 <img src="/projects/Digital Tube Demo/seg_run/pic/Board pic (1).png" width= "400">
 
-[Keys Input Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Digital%20Tube%20Demo/seg_run)
+[Digital Tube Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Digital%20Tube%20Demo/seg_run)
 
 ## External Interrupt Demo 
 
