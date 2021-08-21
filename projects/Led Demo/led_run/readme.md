@@ -78,12 +78,22 @@ Open led.uvprojx in the PROJECT folder as shown in Figure 14.
 
 <img src="/projects/Led Demo/led_run/pic/figure 14 (14).png" width= "400">
 
-<img src="/" width= "400">
+Set GPIO-> OUTENSET register to realize the output function.
 
-<img src="/" width= "400">
+<img src="/projects/Led Demo/led_run/pic/code line 1 (15).png" width= "400">
 
-<img src="/" width= "400">
+Set GPIO-> DATAOUT register to implement LED blinking one by one.
 
-<img src="/" width= "400">
+<img src="/projects/Led Demo/led_run/pic/code line 2 (16).png" width= "400">
 
-<img src="/" width= "400">
+After bulid, the download file led.bin is generated as shown in Figure 15.
+
+<img src="/projects/Led Demo/led_run/pic/figure 15 (17).png" width= "400">
+
+## Download and Verification
+
+Use Gowin Software to download as shown in Figure 16. The FPGA hardware platform file is fpga_led.fs, and the Cotex-M3 software file is led.bin, so be careful to choose the correct file path and bulid file.
+
+<img src="/projects/Led Demo/led_run/pic/figure 16 (18).png" width= "400">
+
+<img src="/projects/Led Demo/led_run/pic/figure 17 (19).png" width= "400">
