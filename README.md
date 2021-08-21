@@ -90,9 +90,9 @@ MagicJellyBean is an organization established to enable hobbyists, academic rese
 
 * /pcb - schematic pdfs
 
-* /rtl - FPGA example designs
+* /projects - demo MiniStar projects
 
-* /sw - any additional software for the examples
+
  
 
 
