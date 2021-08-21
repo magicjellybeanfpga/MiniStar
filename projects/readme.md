@@ -17,3 +17,11 @@ You can use four dip switches on the extension board to control four 7-segment d
 <img src="/projects/Switch Run Demo/switch_run/images/Dip_switch_ministar_board_pic.jpg" width= "400">
 
 [Dip Switch Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Switch%20Run%20Demo/switch_run)
+
+## LED Demo
+
+You will learn how to use GPIO as the output by this demo. You can write code to control the eight LEDs LED1 (D1) ~ LED8 (D8) on the board to blink one by one.
+
+<img src="/projects/Led Demo/led_run/pic/board pic (1).png" width= "400">
+
+[LED Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Led%20Demo/led_run)
