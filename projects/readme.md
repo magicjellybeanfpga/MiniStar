@@ -47,3 +47,8 @@ You will learn how to use GPIO as the output to control the digital tube to disp
 You will learn how to use GPIO as external interrupt and output, and how to program the KEY1 as an external interrupt to control the LED on and off by this demo. As in Figure 1, the KEY1 on the extension board controls one LED on and off.
 
 
+<img src="/projects/External Interrupt Demo/led_exti_int/pic/board 1 (1).png" width= "400">
+
+[External Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/External%20Interrupt%20Demo/led_exti_int)
+
+
