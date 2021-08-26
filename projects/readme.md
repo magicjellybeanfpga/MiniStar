@@ -57,4 +57,4 @@ You will learn UART and its interrupt programming by this demo. In order not to 
 
 <img src="/projects/UART0 Interrupt Demo/uart0_int_run/images/UART board pic (1).png" width= "400">
 
-
+[UART0 Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/UART0%20Interrupt%20Demo/uart0_int_run)
