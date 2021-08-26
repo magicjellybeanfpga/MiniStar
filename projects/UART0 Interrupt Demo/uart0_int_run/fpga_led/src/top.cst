@@ -1,0 +1,30 @@
+//Copyright (C)2014-2020 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.7 Beta
+//Part Number: GW1NS-LV4CQN48C7/I6
+//Device: GW1NS-4C
+//Created Time: Tue 06 22 18:43:04 2021
+
+IO_LOC "gpio_io[7]" 33;
+IO_PORT "gpio_io[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[6]" 35;
+IO_PORT "gpio_io[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[5]" 32;
+IO_PORT "gpio_io[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[4]" 30;
+IO_PORT "gpio_io[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[3]" 46;
+IO_PORT "gpio_io[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[2]" 44;
+IO_PORT "gpio_io[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[1]" 42;
+IO_PORT "gpio_io[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[0]" 40;
+IO_PORT "gpio_io[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "uart0_txd" 43;
+IO_PORT "uart0_txd" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "uart0_rxd" 45;
+IO_PORT "uart0_rxd" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "reset_n" 20;
+IO_PORT "reset_n" PULL_MODE=UP;
