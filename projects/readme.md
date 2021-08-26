@@ -51,4 +51,10 @@ You will learn how to use GPIO as external interrupt and output, and how to prog
 
 [External Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/External%20Interrupt%20Demo/led_exti_int)
 
+## UART0 Interrupt Demo
+
+You will learn UART and its interrupt programming by this demo. In order not to add new peripherals, use UART TX RX to control the times of LED on/off. As shown in Figure 1, short-circuit UART TX RX pins, and control the times of LED1 on/off according to the RX data.
+
+<img src="/projects/UART0 Interrupt Demo/uart0_int_run/images/UART board pic (1).png" width= "400">
+
 
