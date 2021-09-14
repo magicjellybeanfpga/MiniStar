@@ -14,6 +14,7 @@ https://gitee.com/walker2048/gw1-ns-4-c-gn
 2. Install GN and Ninja tools (Linux only). Download gn and ninja, extract to the directory and put the directory into the environment variables
 
 gn address: https://repo.huaweicloud.com/HarmonyOS/compiler/gn/1523/linux/gn.1523.tar
+
 ninja address: https://repo.huaweicloud.com/harmonyos/compiler/ninja/1.9.0/linux/ninja.1.9.0 .tar
 
 3. In the git downloaded project directory, run the build command
