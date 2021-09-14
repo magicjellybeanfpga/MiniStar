@@ -46,4 +46,4 @@ LED Control: Using combination logic, you can modify the maximum value of the tw
 
 <img src="/projects/Led Test Project/pic/LED test (6).png" width= "400">
 
-<img src="/projects/Led Test Project/pic/LED test (7).png" width= "400">
+<img src="/projects/Led Test Project/pic/LED test (7).png" width= "200">
