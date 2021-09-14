@@ -19,8 +19,6 @@ ninja address: https://repo.huaweicloud.com/harmonyos/compiler/ninja/1.9.0/linux
 
 3. In the git downloaded project directory, run the build command
 
-<img src="/projects/Using VSCode and GN+Ninja to Compile Gowin GW1NS-4 Project/pic/VScode (2).png" width= "400">
-
 <img src="/projects/Using VSCode and GN+Ninja to Compile Gowin GW1NS-4 Project/pic/VScode pic (3).png" width= "400">
 
 4. This will complete the compilation.
@@ -31,7 +29,7 @@ For example, if you need to add the test.c file in the user directory, modify li
 
 <img src="/projects/Using VSCode and GN+Ninja to Compile Gowin GW1NS-4 Project/pic/VScode pic (4).png" width= "400">
 
-<img src="/projects/Using VSCode and GN+Ninja to Compile Gowin GW1NS-4 Project/pic/VScode pic (5).png" width= "400">
+<img src="/projects/Using VSCode and GN+Ninja to Compile Gowin GW1NS-4 Project/pic/VScode pic (5).png" width= "200">
 
 If you need to add additional components, you can refer to the system component configuration and copy the component source code directory to the root directory. Also copy the BUILD.gn file of system to this component, and modify line 3 static_library("system"); change system to the component directory name (case consistent), and change line 5 to the c file name that needs to be compiled. Finally, change line 4 of the user/BUILD.gn (written by component name), sorted from the top and written from left to right.
 
