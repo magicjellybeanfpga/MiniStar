@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_ult" Register="13" Lut="54">
+    <SubModule name="cnt" Register="53" Alu="34" Lut="52"/>
+    <SubModule name="div_clk" Register="16" Alu="14" Lut="11"/>
+</Module>
