@@ -1,0 +1,133 @@
+# Mon Aug 10 19:23:24 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2020q1p1, Build 004R, Built Jun 18 2020 10:25:53, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+@A: MF827 |No constraint file specified.
+@L: F:\source_code\make_fire\ult\impl\synthesize\rev_1\ult_scck.rpt 
+See clock summary report "F:\source_code\make_fire\ult\impl\synthesize\rev_1\ult_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 154MB peak: 155MB)
+
+@N: FX493 |Applying initial value "0000000000" on instance count_echo[9:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance flag.
+@N: FX493 |Applying initial value "00" on instance sel[1:0].
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                          Clock                     Clock
+Level     Clock                            Frequency     Period        Type                           Group                     Load 
+-------------------------------------------------------------------------------------------------------------------------------------
+0 -       top_ult|clk                      100.0 MHz     10.000        inferred                       Autoconstr_clkgroup_0     61   
+1 .         div_clk|flag_derived_clock     100.0 MHz     10.000        derived (from top_ult|clk)     Autoconstr_clkgroup_0     14   
+=====================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                               Clock     Source                      Clock Pin              Non-clock Pin     Non-clock Pin
+Clock                          Load      Pin                         Seq Example            Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------
+top_ult|clk                    61        clk(port)                   div_clk.cnt[8:0].C     -                 -            
+div_clk|flag_derived_clock     14        div_clk.flag.Q[0](dffr)     dig[3:0].C             -                 -            
+===========================================================================================================================
+
+@W: MT529 :"f:\source_code\make_fire\ult\src\cnt.v":79:0:79:5|Found inferred clock top_ult|clk which controls 61 sequential elements including cnt.count_echo[9]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 61 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 14 clock pin(s) of sequential element(s)
+0 instances converted, 14 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   61         div_clk.flag   
+=======================================================================================
+============================================================== Gated/Generated Clocks ==============================================================
+Clock Tree ID     Driving Element       Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                               
+----------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       div_clk.flag.Q[0]     dffr                   14                     sel[1]              Derived clock on input (not legal for GCC)
+====================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\source_code\make_fire\ult\impl\synthesize\rev_1\ult.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 239MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Aug 10 19:23:27 2020
+
+###########################################################]

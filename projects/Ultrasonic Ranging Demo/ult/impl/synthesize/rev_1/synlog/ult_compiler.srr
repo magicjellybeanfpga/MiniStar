@@ -1,0 +1,130 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\source_code\make_fire\ult\src\cnt.v" (library work)
+@I::"F:\source_code\make_fire\ult\src\div_clk.v" (library work)
+@I::"F:\source_code\make_fire\ult\src\top_ult.v" (library work)
+@I::"F:\source_code\make_fire\ult\src\seq_control.v" (library work)
+Verilog syntax check successful!
+File F:\source_code\make_fire\ult\src\top_ult.v changed - recompiling
+Selecting top level module top_ult
+@N: CG364 :"F:\source_code\make_fire\ult\src\cnt.v":23:7:23:9|Synthesizing module cnt in library work.
+@N: CG179 :"F:\source_code\make_fire\ult\src\cnt.v":86:30:86:39|Removing redundant assignment.
+@N: CG179 :"F:\source_code\make_fire\ult\src\cnt.v":96:28:96:36|Removing redundant assignment.
+@N: CG179 :"F:\source_code\make_fire\ult\src\cnt.v":106:28:106:36|Removing redundant assignment.
+@N: CG179 :"F:\source_code\make_fire\ult\src\cnt.v":116:32:116:44|Removing redundant assignment.
+@N: CG179 :"F:\source_code\make_fire\ult\src\cnt.v":126:33:126:46|Removing redundant assignment.
+Running optimization stage 1 on cnt .......
+@N: CG364 :"F:\source_code\make_fire\ult\src\div_clk.v":3:7:3:13|Synthesizing module div_clk in library work.
+Running optimization stage 1 on div_clk .......
+@N: CG364 :"F:\source_code\make_fire\ult\src\seq_control.v":3:7:3:17|Synthesizing module seq_control in library work.
+Running optimization stage 1 on seq_control .......
+@N: CG364 :"F:\source_code\make_fire\ult\src\top_ult.v":3:7:3:13|Synthesizing module top_ult in library work.
+Running optimization stage 1 on top_ult .......
+Running optimization stage 2 on top_ult .......
+Running optimization stage 2 on seq_control .......
+Running optimization stage 2 on div_clk .......
+Running optimization stage 2 on cnt .......
+@N: CL189 :"F:\source_code\make_fire\ult\src\cnt.v":79:0:79:5|Register bit count_echo[10] is always 0.
+@N: CL189 :"F:\source_code\make_fire\ult\src\cnt.v":79:0:79:5|Register bit count_echo[11] is always 0.
+@N: CL189 :"F:\source_code\make_fire\ult\src\cnt.v":79:0:79:5|Register bit count_echo[12] is always 0.
+@W: CL279 :"F:\source_code\make_fire\ult\src\cnt.v":79:0:79:5|Pruning register bits 12 to 10 of count_echo[12:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\source_code\make_fire\ult\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 106MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 10 19:23:21 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\source_code\make_fire\ult\src\top_ult.v":3:7:3:13|Selected library: work cell: top_ult view verilog as top level
+@N: NF107 :"f:\source_code\make_fire\ult\src\top_ult.v":3:7:3:13|Selected library: work cell: top_ult view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 103MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 10 19:23:22 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\source_code\make_fire\ult\impl\synthesize\rev_1\synwork\ult_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 36MB peak: 45MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 10 19:23:22 2020
+
+###########################################################]
