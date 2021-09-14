@@ -1,4 +1,4 @@
-# Ultrasonic Ranging Demo\
+# Ultrasonic Ranging Demo
 
 In this demo, it should be noted that the tubes in the routine are connected by
 common anode. Because I do not find anode digital tube for this demo, I
