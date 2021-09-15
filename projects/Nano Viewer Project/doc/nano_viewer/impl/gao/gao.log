@@ -1,0 +1,49 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\ao_0\gw_ao_top_define.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":130)
+Back to file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":130)
+Analyzing Verilog file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_define.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":680)
+Back to file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":680)
+Analyzing included file 'C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\ao_0\gw_ao_top_define.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":55)
+Back to file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":680)
+Analyzing included file 'C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\ao_0\gw_ao_parameter.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":1)
+Back to file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":680)
+Analyzing Verilog file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'
+Analyzing included file 'C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\ao_control\gw_con_top_define.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":365)
+Back to file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":365)
+Analyzing included file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":2)
+Back to file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":365)
+Analyzing Verilog file 'C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\gw_gao_top.v'
+Compiling module 'gw_gao'("C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\gw_gao_top.v":1)
+Compiling module 'GW_JTAG'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module '**'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":0)
+Compiling module '**'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+WARN  (EX3041) : ** shift count >= width of value("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+WARN  (EX3041) : ** shift count >= width of value("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+WARN  (EX1998) : Net 'tdo_er2' does not have a driver("C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\gw_gao_top.v":135)
+NOTE  (EX0101) : Current top module is "gw_gao"
+WARN  (EX0211) : The output port "capture_end_init" of module "ao_mem_ctrl(STORAGE_DEPTH=1024,MEM_DATA_WIDTH=33)" has no driver("C:\SOFTWARE\Gowin\Gowin_V1.9.7.02Beta_GowinSynthesis-only\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\gao.v" completed
+[100%] Generate report file "C:\Users\A\Desktop\TANG\gowin\projects\nano_viewer\impl\gao\gao_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="nano_viewer" Lut="1">
+    <SubModule name="u_mem_pll"/>
+    <SubModule name="u_vga_pll"/>
+    <SubModule name="u_vga_driver" Register="21" Alu="19" Lut="61"/>
+    <SubModule name="u_vga_display" Register="69" Alu="279" Lut="665" Dsp="2">
+        <SubModule name="u_snake_rom" Bsram="1"/>
+        <SubModule name="u_doge_rom" Bsram="4"/>
+        <SubModule name="u_font_rom" Register="2" Lut="5" Bsram="3"/>
+        <SubModule name="u_img_rom" Register="1" Lut="3" Bsram="2"/>
+    </SubModule>
+    <SubModule name="u_uart_rxd" Register="36" Alu="11" Lut="29"/>
+    <SubModule name="u_state_transfer" Register="5" Lut="25"/>
+    <SubModule name="u_dht11_driver" Register="108" Alu="52" Lut="95"/>
+    <SubModule name="u_psram_control" Register="344" Alu="17" Lut="235">
+        <SubModule name="u_hyper_ram" Register="677" Alu="31" Lut="715"/>
+    </SubModule>
+</Module>
