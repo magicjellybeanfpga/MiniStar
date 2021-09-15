@@ -1,0 +1,16 @@
+.\objects\oled.o: MODULE\OLED\oled.c
+.\objects\oled.o: MODULE\OLED\oled.h
+.\objects\oled.o: .\PERIPHERAL\Includes\gw1ns4c_i2c.h
+.\objects\oled.o: .\SYSTEM\gw1ns4c.h
+.\objects\oled.o: .\CORE\core_cm3.h
+.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: .\SYSTEM\system_gw1ns4c.h
+.\objects\oled.o: .\USER\gw1ns4c_conf.h
+.\objects\oled.o: .\PERIPHERAL\Includes\gw1ns4c_uart.h
+.\objects\oled.o: .\SYSTEM\gw1ns4c.h
+.\objects\oled.o: .\PERIPHERAL\Includes\gw1ns4c_i2c.h
+.\objects\oled.o: .\PERIPHERAL\Includes\gw1ns4c_misc.h
+.\objects\oled.o: .\PERIPHERAL\Includes\gw1ns4c_rtc.h
+.\objects\oled.o: .\PERIPHERAL\Includes\systick.h
+.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\oled.o: MODULE\OLED\oledfont.h
