@@ -1,0 +1,32 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\wu\Desktop\gw_dds\DDS\src\dds.v'
+Analyzing Verilog file 'C:\Users\wu\Desktop\gw_dds\DDS\src\gowin_prom\gowin_prom.v'
+Analyzing Verilog file 'C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v'
+Analyzing Verilog file 'C:\Users\wu\Desktop\gw_dds\DDS\src\key_filter.v'
+Analyzing Verilog file 'C:\Users\wu\Desktop\gw_dds\DDS\src\top.v'
+Compiling module 'top_dds'("C:\Users\wu\Desktop\gw_dds\DDS\src\top.v":1)
+Compiling module 'dds'("C:\Users\wu\Desktop\gw_dds\DDS\src\dds.v":1)
+Compiling module 'Gowin_pROM'("C:\Users\wu\Desktop\gw_dds\DDS\src\gowin_prom\gowin_prom.v":9)
+Compiling module 'key_control'("C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":1)
+Compiling module 'key_filter'("C:\Users\wu\Desktop\gw_dds\DDS\src\key_filter.v":1)
+NOTE  (EX0101) : Current top module is "top_dds"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\wu\Desktop\gw_dds\DDS\impl\gwsynthesis\DDS.vg" completed
+[100%] Generate report file "C:\Users\wu\Desktop\gw_dds\DDS\impl\gwsynthesis\DDS_syn.rpt.html" completed
+GowinSynthesis finish
