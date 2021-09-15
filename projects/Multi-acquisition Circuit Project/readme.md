@@ -1,5 +1,7 @@
 # Multi-Acquisition Circuit Project
 
+By: Yuanming Jiang 
+
 ### 1. Introduction
 
 This project is based on the multi-acquisition version of MiniStar development board. The main control chip of MiniStar is Gowin GW1NSR-4C, which is a low-power FPGA chip with Cortex-M3 hard core processor, internal logic resources of 4608 four-input look-up tables and 3456 FFs, and integrated with Block RAM, flash memory, multiplier, HyperRAM and other rich resources. The project mainly relies on the FPGA (PL) of GW1NSR-4C for temperature collection and serial transmission due to time constraints, and the processor will be added in the product design to extend the application of the LOT module.
