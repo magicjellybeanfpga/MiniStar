@@ -26,6 +26,7 @@ This project uses the GW1N-LV1 to output dual-channel DDS waveform signals, and 
 1. The signal generator uses ROM 4KB for each channel as waveform memory, and the amplitude of one cycle of each waveform (sine, square, triangle and sawtooth) occupies 1024 bytes, and these four waveforms occupy 4096 bytes.
 
 To output a waveform, firstly, the base address needs to be determined according to the waveform type; secondly, the frequency register determines the rate of self-increment of the offset; the phase register determines the difference between the offsets of the two channels; finally, the base address and the offset are added to obtain the output voltage of the waveform in ROM.
+
 2. Waveform parameters are set by keys and dip switches.
 
 The 8-bit dip switch is the data input interface for setting parameters of frequency and phase, and the data range is 0x00~0xFF. The frequency input
