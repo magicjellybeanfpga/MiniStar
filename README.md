@@ -8,31 +8,18 @@ Enables a seamless connection between programmable logic devices and embedded pr
 ### Features:
 
 * Low Cost FPGA+MCU Embedded Computer Board
-
 * GOWIN GW1NS-4C µSoC FPGA
-
 * 4.6K LUT FPGA Fabric
-
 * ARM Cortex-M3 Embedded MCU
-
 * Embedded 256Kbit Flash
-
 * 64Mbit HyperRAM
-
 * High Speed Flex Connectors for GPIO and LVDS IO
-
 * Selectable IO Voltages
-
 * USB-C to JTAG Programmer
-
 * J-LINK Debugger Header
-
 * 27Mhz Mems Oscillator
-
 * 64-Mbit external SPI Flash
-
 * 2 - Push Buttons, 2 – User LEDs
-
 * Power LED
 
 ## MiniStar Experiment Board
