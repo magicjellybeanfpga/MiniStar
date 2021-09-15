@@ -55,5 +55,3 @@ Note: If you need rich features such as   components, drivers, and software  pac
 
 RT-Thread Nano Real-Time Operations System follows  Apache's  proven version 2.0,  and the Real-Time Operations System kernel and all open source components can be used free of charge in commercial products without the need to publish the program source  code that should be used, and there are no potential vendors   risk. 
 
-![image](https://user-images.githubusercontent.com/81582905/133487988-49a24d21-d422-4a98-9625-298dbf47c3ba.png)
-
