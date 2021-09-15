@@ -1,0 +1,10 @@
+-d D:\workspace\FPGA\Gowin\new_mcu_prj\impl\gwsynthesis\new_mcu_prj.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst D:\workspace\FPGA\Gowin\new_mcu_prj\src\new_mcu_prj.cst
+-cfg D:\workspace\FPGA\Gowin\new_mcu_prj\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
