@@ -1,0 +1,2 @@
+`define GOWIN_AHB2_M_SUPPORT
+`define NUM_BRAMS_8
