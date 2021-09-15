@@ -8,5 +8,8 @@ FPGA controls communication between RTL8201CP chip and computer to receive MP3 a
 
 * Windows 10 64 bits
 * VLC
-* MINI_STAR_4K development board  RTL8201CP network extension board  VS1003B extension board
-* Gowin Software: Win V1.9.7.03 Beta  MKD5.23
+* MINI_STAR_4K development board  
+* RTL8201CP network extension board 
+* VS1003B extension board
+* Gowin Software: Win V1.9.7.03 Beta 
+* MKD5.23
