@@ -1,0 +1,124 @@
+[
+ {
+  "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+  "InstLine" : 4,
+  "InstName" : "Gowin_EMPU_Template",
+  "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "Gowin_EMPU_Template",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+    "InstLine" : 65,
+    "InstName" : "u_Gowin_PLLVR",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+    "InstLine" : 118,
+    "InstName" : "u_udp",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/udp.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "udp",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/udp.v",
+      "InstLine" : 74,
+      "InstName" : "u_ip_receive",
+      "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/ip_receive.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "ip_receive"
+     },
+     {
+      "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/udp.v",
+      "InstLine" : 93,
+      "InstName" : "u_ip_send",
+      "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/ip_send.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "ip_send"
+     },
+     {
+      "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/udp.v",
+      "InstLine" : 110,
+      "InstName" : "u_crc32_d4",
+      "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/crc32_d4.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "crc32_d4"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+    "InstLine" : 139,
+    "InstName" : "u_pulse_sync_pro",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/rmii/pulse_sync_pro.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "pulse_sync_pro"
+   },
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+    "InstLine" : 162,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/fifo_top/fifo_top.v",
+    "ModuleLine" : 755,
+    "ModuleName" : "fifo_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/fifo_top/fifo_top.v",
+      "InstLine" : 780,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/fifo_top/fifo_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo.fifo_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+    "InstLine" : 180,
+    "InstName" : "u_Gowin_AHB_TOARM_Top",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/ahb_toarm.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "Gowin_AHB_TOARM_Top"
+   },
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu_template.v",
+    "InstLine" : 205,
+    "InstName" : "u_Gowin_EMPU_Top",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu/gowin_empu.v",
+    "ModuleLine" : 1322,
+    "ModuleName" : "Gowin_EMPU_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu/gowin_empu.v",
+      "InstLine" : 1423,
+      "InstName" : "Gowin_EMPU_inst",
+      "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/gowin_empu/gowin_empu.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~Gowin_EMPU.Gowin_EMPU_Top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/hyperram_memory_interface/hyperram_memory_interface.v",
+  "InstLine" : 5316,
+  "InstName" : "HyperRAM_Memory_Interface_Top",
+  "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/hyperram_memory_interface/hyperram_memory_interface.v",
+  "ModuleLine" : 5316,
+  "ModuleName" : "HyperRAM_Memory_Interface_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "InstLine" : 5359,
+    "InstName" : "u_hpram_top",
+    "ModuleFile" : "F:/0_code/Gowin/ministar_eth_audio/FPGA_Design/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top"
+   }
+  ]
+ }
+]

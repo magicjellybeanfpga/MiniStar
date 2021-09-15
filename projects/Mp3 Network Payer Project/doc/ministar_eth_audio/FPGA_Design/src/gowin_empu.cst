@@ -1,0 +1,60 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.7.02Beta
+//Part Number: GW1NSR-LV4CQN48PC7/I6
+//Device: GW1NSR-4C
+//Created Time: Sun 05 02 20:54:50 2021
+
+IO_LOC "mp3_dreq" 8;
+IO_PORT "mp3_dreq" PULL_MODE=UP DRIVE=8;
+IO_LOC "mp3_xdcs" 35;
+IO_PORT "mp3_xdcs" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "mp3_xreset" 34;
+IO_PORT "mp3_xreset" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "arm_led" 13;
+IO_PORT "arm_led" PULL_MODE=NONE DRIVE=8;
+IO_LOC "led" 14;
+IO_PORT "led" PULL_MODE=NONE DRIVE=8;
+IO_LOC "uart0_txd" 28;
+IO_PORT "uart0_txd" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "eth_rst_n" 47;
+IO_PORT "eth_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "eth_tx_data[3]" 45;
+IO_PORT "eth_tx_data[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "eth_tx_data[2]" 46;
+IO_PORT "eth_tx_data[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "eth_tx_data[1]" 43;
+IO_PORT "eth_tx_data[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "eth_tx_data[0]" 44;
+IO_PORT "eth_tx_data[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "eth_tx_en" 48;
+IO_PORT "eth_tx_en" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "spi0_miso" 30;
+IO_PORT "spi0_miso" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "spi0_nss" 32;
+IO_PORT "spi0_nss" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "spi0_mosi" 31;
+IO_PORT "spi0_mosi" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "spi0_clk" 29;
+IO_PORT "spi0_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "uart0_rxd" 27;
+IO_PORT "uart0_rxd" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_rx_data[3]" 39;
+IO_PORT "eth_rx_data[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_rx_data[2]" 40;
+IO_PORT "eth_rx_data[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_rx_data[1]" 2;
+IO_PORT "eth_rx_data[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_rx_data[0]" 1;
+IO_PORT "eth_rx_data[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_tx_clk" 41;
+IO_PORT "eth_tx_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_rxdv" 33;
+IO_PORT "eth_rxdv" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "eth_rx_clk" 42;
+IO_PORT "eth_rx_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "reset_n" 20;
+IO_PORT "reset_n" PULL_MODE=UP;
+IO_LOC "sys_clk" 22;
+IO_PORT "sys_clk" PULL_MODE=UP;
