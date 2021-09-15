@@ -1,0 +1,1144 @@
+#Build: Synplify Pro (R) Q-2020.03G-Beta1, Build 136R, May 11 2020
+#install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-7K8757E
+
+# Thu May  6 09:52:26 2021
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-7K8757E
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-7K8757E
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+@I::"E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\wu\Desktop\gw_dds\DDS\src\dds.v" (library work)
+@I::"C:\Users\wu\Desktop\gw_dds\DDS\src\gowin_prom\gowin_prom.v" (library work)
+@I::"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v" (library work)
+@I::"C:\Users\wu\Desktop\gw_dds\DDS\src\top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top_dds
+@N: CG364 :"E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\lib\generic\gw1n.v":1463:7:1463:10|Synthesizing module pROM in library work.
+Running optimization stage 1 on pROM .......
+@N: CG364 :"C:\Users\wu\Desktop\gw_dds\DDS\src\gowin_prom\gowin_prom.v":9:7:9:16|Synthesizing module Gowin_pROM in library work.
+Running optimization stage 1 on Gowin_pROM .......
+@N: CG364 :"C:\Users\wu\Desktop\gw_dds\DDS\src\dds.v":1:7:1:9|Synthesizing module dds in library work.
+Running optimization stage 1 on dds .......
+@N: CG364 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":1:7:1:17|Synthesizing module key_control in library work.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":111:29:111:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":112:29:112:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":158:23:158:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":159:23:159:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":170:23:170:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":171:23:171:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":209:24:209:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":216:24:216:37|Removing redundant assignment.
+Running optimization stage 1 on key_control .......
+@N: CL189 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":202:0:202:5|Register bit ch1_PHASE_CTRL[0] is always 0.
+@N: CL189 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":202:0:202:5|Register bit ch1_PHASE_CTRL[1] is always 0.
+@N: CL189 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":202:0:202:5|Register bit ch2_PHASE_CTRL[0] is always 0.
+@N: CL189 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":202:0:202:5|Register bit ch2_PHASE_CTRL[1] is always 0.
+@W: CL279 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":202:0:202:5|Pruning register bits 1 to 0 of ch1_PHASE_CTRL[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":202:0:202:5|Pruning register bits 1 to 0 of ch2_PHASE_CTRL[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\wu\Desktop\gw_dds\DDS\src\top.v":1:7:1:13|Synthesizing module top_dds in library work.
+Running optimization stage 1 on top_dds .......
+Running optimization stage 2 on top_dds .......
+Running optimization stage 2 on key_control .......
+@N: CL201 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":73:0:73:5|Trying to extract state machine for register ch2_wave_select.
+@N: CL201 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":73:0:73:5|Trying to extract state machine for register ch1_wave_select.
+Extracted state machine for register ch1_wave_select
+State machine has 5 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0100
+   1000
+@W: CL279 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":176:0:176:5|Pruning register bits 31 to 26 of ch1_FREQ_CTRL[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":176:0:176:5|Pruning register bits 31 to 26 of ch2_FREQ_CTRL[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":176:0:176:5|Register bit ch1_FREQ_CTRL[25] is always 0.
+@N: CL189 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":176:0:176:5|Register bit ch2_FREQ_CTRL[25] is always 0.
+@W: CL260 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":176:0:176:5|Pruning register bit 25 of ch1_FREQ_CTRL[25:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\wu\Desktop\gw_dds\DDS\src\key_control.v":176:0:176:5|Pruning register bit 25 of ch2_FREQ_CTRL[25:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on dds .......
+Running optimization stage 2 on Gowin_pROM .......
+Running optimization stage 2 on pROM .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  6 09:52:27 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-7K8757E
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"c:\users\wu\desktop\gw_dds\dds\src\top.v":1:7:1:13|Selected library: work cell: top_dds view verilog as top level
+@N: NF107 :"c:\users\wu\desktop\gw_dds\dds\src\top.v":1:7:1:13|Selected library: work cell: top_dds view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  6 09:52:27 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\synwork\DDS_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 29MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  6 09:52:27 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-7K8757E
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"c:\users\wu\desktop\gw_dds\dds\src\top.v":1:7:1:13|Selected library: work cell: top_dds view verilog as top level
+@N: NF107 :"c:\users\wu\desktop\gw_dds\dds\src\top.v":1:7:1:13|Selected library: work cell: top_dds view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  6 09:52:29 2021
+
+###########################################################]
+Premap Report
+
+# Thu May  6 09:52:29 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-7K8757E
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2020q1p1, Build 004R, Built Jun 18 2020 10:25:53, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\DDS_scck.rpt 
+See clock summary report "C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\DDS_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Encoding state machine ch1_wave_select_1[4:0] (in view: work.key_control(verilog))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0100 -> 01000
+   1000 -> 10000
+@N: FX493 |Applying initial value "1" on instance ch1_wave_select_1[0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance ch1_wave_select_1[1].
+@N: FX493 |Applying initial value "0" on instance ch1_wave_select_1[2].
+@N: FX493 |Applying initial value "0" on instance ch1_wave_select_1[3].
+@N: FX493 |Applying initial value "0" on instance ch1_wave_select_1[4].
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 222MB peak: 222MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 222MB peak: 222MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 222MB peak: 222MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 222MB peak: 222MB)
+
+
+
+Clock Summary
+******************
+
+          Start               Requested     Requested     Clock        Clock                     Clock
+Level     Clock               Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------
+0 -       top_dds|sys_clk     170.8 MHz     5.855         inferred     Autoconstr_clkgroup_0     246  
+======================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                    Clock     Source            Clock Pin                      Non-clock Pin     Non-clock Pin
+Clock               Load      Pin               Seq Example                    Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------------------
+top_dds|sys_clk     246       sys_clk(port)     key_control_inst.ch_sw_i.C     -                 -            
+==============================================================================================================
+
+@W: MT529 :"c:\users\wu\desktop\gw_dds\dds\src\gowin_prom\gowin_prom.v":37:5:37:15|Found inferred clock top_dds|sys_clk which controls 246 sequential elements including dds_CH1.DDS_ROM.prom_inst_1. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 246 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+====================================== Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                      
+-------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       sys_clk             port                   246        key_control_inst.ch1_wave_select_1[4]
+=============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\DDS.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 222MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 223MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 223MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 224MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May  6 09:52:31 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Thu May  6 09:52:31 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: E:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-7K8757E
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw2020q1p1, Build 004R, Built Jun 18 2020 10:25:53, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 217MB peak: 217MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 223MB peak: 223MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 223MB peak: 223MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 224MB peak: 224MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 224MB peak: 224MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 224MB peak: 225MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 224MB peak: 225MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 225MB peak: 225MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 225MB peak: 225MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -4.81ns		 344 /       242
+   2		0h:00m:01s		    -4.81ns		 344 /       242
+@N: FX271 :"c:\users\wu\desktop\gw_dds\dds\src\key_control.v":139:0:139:5|Replicating instance key_control_inst.ch2_fre_l[1] (in view: work.top_dds(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\wu\desktop\gw_dds\dds\src\key_control.v":139:0:139:5|Replicating instance key_control_inst.ch2_fre_l[0] (in view: work.top_dds(verilog)) with 7 loads 1 time to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   3		0h:00m:01s		    -4.81ns		 344 /       244
+
+
+   4		0h:00m:01s		    -4.81ns		 344 /       244
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 225MB peak: 225MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: BN114 :"c:\users\wu\desktop\gw_dds\dds\src\key_control.v":185:38:185:51|Removing instance key_control_inst.un1_ch1_fre_l_560_0 (in view: work.top_dds(verilog)) of black box view:GOWIN.ALU(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\wu\desktop\gw_dds\dds\src\key_control.v":185:38:185:51|Removing instance key_control_inst.un1_ch1_fre_l_528_0 (in view: work.top_dds(verilog)) of black box view:GOWIN.ALU(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\wu\desktop\gw_dds\dds\src\key_control.v":186:38:186:51|Removing instance key_control_inst.un1_ch2_fre_l_248_0 (in view: work.top_dds(verilog)) of black box view:GOWIN.ALU(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\wu\desktop\gw_dds\dds\src\key_control.v":186:38:186:51|Removing instance key_control_inst.un1_ch2_fre_l_216_0 (in view: work.top_dds(verilog)) of black box view:GOWIN.ALU(PRIM) because it does not drive other instances.
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 226MB peak: 226MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 226MB)
+
+Writing Analyst data base C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\synwork\DDS_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 226MB peak: 226MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 227MB peak: 227MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 227MB peak: 227MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 226MB peak: 227MB)
+
+@W: MT420 |Found inferred clock top_dds|sys_clk with period 11.15ns. Please declare a user-defined clock on port sys_clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu May  6 09:52:35 2021
+#
+
+
+Top view:               top_dds
+Requested Frequency:    89.7 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.968
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+top_dds|sys_clk     89.7 MHz      76.2 MHz      11.152        13.120        -1.968     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+top_dds|sys_clk  top_dds|sys_clk  |  11.152      -1.968  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top_dds|sys_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                    Arrival           
+Instance                               Reference           Type      Pin     Net                   Time        Slack 
+                                       Clock                                                                         
+---------------------------------------------------------------------------------------------------------------------
+key_control_inst.ch1_fre_l[0]          top_dds|sys_clk     DFFRE     Q       ch1_fre_l[0]          0.367       -1.968
+key_control_inst.ch2_fre_l_fast[0]     top_dds|sys_clk     DFFRE     Q       ch2_fre_l_fast[0]     0.367       -1.968
+key_control_inst.ch1_fre_l[1]          top_dds|sys_clk     DFFRE     Q       ch1_fre_l[1]          0.367       -1.911
+key_control_inst.ch2_fre_l[1]          top_dds|sys_clk     DFFRE     Q       ch2_fre_l[1]          0.367       -1.911
+key_control_inst.ch2_fre_l_fast[1]     top_dds|sys_clk     DFFRE     Q       ch2_fre_l_fast[1]     0.367       -1.881
+key_control_inst.ch1_fre_l[2]          top_dds|sys_clk     DFFRE     Q       ch1_fre_l[2]          0.367       -1.854
+key_control_inst.ch2_fre_l[2]          top_dds|sys_clk     DFFRE     Q       ch2_fre_l[2]          0.367       -1.854
+key_control_inst.ch1_fre_l[3]          top_dds|sys_clk     DFFSE     Q       ch1_fre_l[3]          0.367       -1.797
+key_control_inst.ch2_fre_l[3]          top_dds|sys_clk     DFFSE     Q       ch2_fre_l[3]          0.367       -1.797
+key_control_inst.ch1_fre_l[4]          top_dds|sys_clk     DFFRE     Q       ch1_fre_l[4]          0.367       -1.740
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                     Required           
+Instance                                 Reference           Type     Pin     Net                     Time         Slack 
+                                         Clock                                                                           
+-------------------------------------------------------------------------------------------------------------------------
+key_control_inst.ch1_FREQ_CTRL_1[24]     top_dds|sys_clk     DFFR     D       ch1_FREQ_CTRL_3[24]     11.019       -1.968
+key_control_inst.ch2_FREQ_CTRL_1[24]     top_dds|sys_clk     DFFR     D       ch2_FREQ_CTRL_3[24]     11.019       -1.968
+key_control_inst.ch1_FREQ_CTRL_1[23]     top_dds|sys_clk     DFFR     D       ch1_FREQ_CTRL_3[23]     11.019       -1.911
+key_control_inst.ch2_FREQ_CTRL_1[23]     top_dds|sys_clk     DFFR     D       ch2_FREQ_CTRL_3[23]     11.019       -1.911
+key_control_inst.ch1_FREQ_CTRL_1[22]     top_dds|sys_clk     DFFR     D       ch1_FREQ_CTRL_3[22]     11.019       -1.854
+key_control_inst.ch2_FREQ_CTRL_1[22]     top_dds|sys_clk     DFFR     D       ch2_FREQ_CTRL_3[22]     11.019       -1.854
+key_control_inst.ch1_FREQ_CTRL_1[21]     top_dds|sys_clk     DFFR     D       ch1_FREQ_CTRL_3[21]     11.019       -1.797
+key_control_inst.ch2_FREQ_CTRL_1[21]     top_dds|sys_clk     DFFR     D       ch2_FREQ_CTRL_3[21]     11.019       -1.797
+key_control_inst.ch1_FREQ_CTRL_1[20]     top_dds|sys_clk     DFFR     D       ch1_FREQ_CTRL_3[20]     11.019       -1.740
+key_control_inst.ch2_FREQ_CTRL_1[20]     top_dds|sys_clk     DFFR     D       ch2_FREQ_CTRL_3[20]     11.019       -1.740
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      11.152
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         11.019
+
+    - Propagation time:                      12.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.968
+
+    Number of logic level(s):                27
+    Starting point:                          key_control_inst.ch1_fre_l[0] / Q
+    Ending point:                            key_control_inst.ch1_FREQ_CTRL_1[24] / D
+    The start point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+    The end   point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival      No. of    
+Name                                          Type      Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+key_control_inst.ch1_fre_l[0]                 DFFRE     Q        Out     0.367     0.367 r      -         
+ch1_fre_l[0]                                  Net       -        -       1.021     -            9         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       I1       In      -         1.388 r      -         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       COUT     Out     1.045     2.433 f      -         
+un1_ch1_fre_l_1_c1                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       CIN      In      -         2.433 f      -         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       COUT     Out     0.057     2.490 f      -         
+un1_ch1_fre_l_1_c2                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       CIN      In      -         2.490 f      -         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       COUT     Out     0.057     2.547 f      -         
+un1_ch1_fre_l_1_c3                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       CIN      In      -         2.547 f      -         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       SUM      Out     0.563     3.110 f      -         
+un1_ch1_fre_l_1[4]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_534_0          ALU       I1       In      -         4.131 f      -         
+key_control_inst.un1_ch1_fre_l_534_0          ALU       COUT     Out     1.045     5.176 f      -         
+un1_ch1_fre_l_9_c4                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       CIN      In      -         5.176 f      -         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       SUM      Out     0.563     5.739 f      -         
+un1_ch1_fre_l_9[5]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_597_0          ALU       I1       In      -         6.760 f      -         
+key_control_inst.un1_ch1_fre_l_597_0          ALU       COUT     Out     1.045     7.805 f      -         
+un1_ch1_fre_l_13_c5                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       CIN      In      -         7.805 f      -         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       COUT     Out     0.057     7.862 f      -         
+un1_ch1_fre_l_13_c6                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       CIN      In      -         7.862 f      -         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       COUT     Out     0.057     7.919 f      -         
+un1_ch1_fre_l_13_c7                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       CIN      In      -         7.919 f      -         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       SUM      Out     0.563     8.482 f      -         
+un1_ch1_fre_h_1                               Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_8_0      ALU       I1       In      -         9.503 f      -         
+key_control_inst.un1_ch1_fre_h_1_cry_8_0      ALU       COUT     Out     1.045     10.548 f     -         
+un1_ch1_fre_h_1_cry_8                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       CIN      In      -         10.548 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       COUT     Out     0.057     10.605 f     -         
+un1_ch1_fre_h_1_cry_9                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       CIN      In      -         10.605 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       COUT     Out     0.057     10.662 f     -         
+un1_ch1_fre_h_1_cry_10                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       CIN      In      -         10.662 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       COUT     Out     0.057     10.719 f     -         
+un1_ch1_fre_h_1_cry_11                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       CIN      In      -         10.719 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       COUT     Out     0.057     10.776 f     -         
+un1_ch1_fre_h_1_cry_12                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       CIN      In      -         10.776 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       COUT     Out     0.057     10.833 f     -         
+un1_ch1_fre_h_1_cry_13                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       CIN      In      -         10.833 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       COUT     Out     0.057     10.890 f     -         
+un1_ch1_fre_h_1_cry_14                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       CIN      In      -         10.890 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       COUT     Out     0.057     10.947 f     -         
+un1_ch1_fre_h_1_cry_15                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       CIN      In      -         10.947 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       COUT     Out     0.057     11.004 f     -         
+un1_ch1_fre_h_1_cry_16                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       CIN      In      -         11.004 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       COUT     Out     0.057     11.061 f     -         
+un1_ch1_fre_h_1_cry_17                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       CIN      In      -         11.061 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       COUT     Out     0.057     11.118 f     -         
+un1_ch1_fre_h_1_cry_18                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       CIN      In      -         11.118 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       COUT     Out     0.057     11.175 f     -         
+un1_ch1_fre_h_1_cry_19                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       CIN      In      -         11.175 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       COUT     Out     0.057     11.232 f     -         
+un1_ch1_fre_h_1_cry_20                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       CIN      In      -         11.232 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       COUT     Out     0.057     11.289 f     -         
+un1_ch1_fre_h_1_cry_21                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       CIN      In      -         11.289 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       COUT     Out     0.057     11.346 f     -         
+un1_ch1_fre_h_1_cry_22                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       CIN      In      -         11.346 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       COUT     Out     0.057     11.403 f     -         
+un1_ch1_fre_h_1_cry_23                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       CIN      In      -         11.403 f     -         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       SUM      Out     0.563     11.966 f     -         
+ch1_FREQ_CTRL_3[24]                           Net       -        -       1.021     -            1         
+key_control_inst.ch1_FREQ_CTRL_1[24]          DFFR      D        In      -         12.987 f     -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 13.120 is 8.015(61.1%) logic and 5.105(38.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      11.152
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         11.019
+
+    - Propagation time:                      12.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.968
+
+    Number of logic level(s):                27
+    Starting point:                          key_control_inst.ch2_fre_l_fast[0] / Q
+    Ending point:                            key_control_inst.ch2_FREQ_CTRL_1[24] / D
+    The start point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+    The end   point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival      No. of    
+Name                                     Type      Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+key_control_inst.ch2_fre_l_fast[0]       DFFRE     Q        Out     0.367     0.367 r      -         
+ch2_fre_l_fast[0]                        Net       -        -       1.021     -            2         
+key_control_inst.un1_ch2_fre_l_25_0      ALU       I1       In      -         1.388 r      -         
+key_control_inst.un1_ch2_fre_l_25_0      ALU       COUT     Out     1.045     2.433 f      -         
+un1_ch2_fre_l_1_c1                       Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_31_0      ALU       CIN      In      -         2.433 f      -         
+key_control_inst.un1_ch2_fre_l_31_0      ALU       COUT     Out     0.057     2.490 f      -         
+un1_ch2_fre_l_1_c2                       Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_37_0      ALU       CIN      In      -         2.490 f      -         
+key_control_inst.un1_ch2_fre_l_37_0      ALU       COUT     Out     0.057     2.547 f      -         
+un1_ch2_fre_l_1_c3                       Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_43_0      ALU       CIN      In      -         2.547 f      -         
+key_control_inst.un1_ch2_fre_l_43_0      ALU       SUM      Out     0.563     3.110 f      -         
+un1_ch2_fre_l_1[4]                       Net       -        -       1.021     -            1         
+key_control_inst.un1_ch2_fre_l_222_0     ALU       I1       In      -         4.131 f      -         
+key_control_inst.un1_ch2_fre_l_222_0     ALU       COUT     Out     1.045     5.176 f      -         
+un1_ch2_fre_l_9_c4                       Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_225_0     ALU       CIN      In      -         5.176 f      -         
+key_control_inst.un1_ch2_fre_l_225_0     ALU       SUM      Out     0.563     5.739 f      -         
+un1_ch2_fre_l_9[5]                       Net       -        -       1.021     -            1         
+key_control_inst.un1_ch2_fre_l_285_0     ALU       I1       In      -         6.760 f      -         
+key_control_inst.un1_ch2_fre_l_285_0     ALU       COUT     Out     1.045     7.805 f      -         
+un1_ch2_fre_l_13_c5                      Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_288_0     ALU       CIN      In      -         7.805 f      -         
+key_control_inst.un1_ch2_fre_l_288_0     ALU       COUT     Out     0.057     7.862 f      -         
+un1_ch2_fre_l_13_c6                      Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_291_0     ALU       CIN      In      -         7.862 f      -         
+key_control_inst.un1_ch2_fre_l_291_0     ALU       COUT     Out     0.057     7.919 f      -         
+un1_ch2_fre_l_13_c7                      Net       -        -       0.000     -            1         
+key_control_inst.un1_ch2_fre_l_294_0     ALU       CIN      In      -         7.919 f      -         
+key_control_inst.un1_ch2_fre_l_294_0     ALU       SUM      Out     0.563     8.482 f      -         
+un1_ch2_fre_l_13[8]                      Net       -        -       1.021     -            1         
+key_control_inst.un4_cry_8_0             ALU       I1       In      -         9.503 f      -         
+key_control_inst.un4_cry_8_0             ALU       COUT     Out     1.045     10.548 f     -         
+un4_cry_8                                Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_9_0             ALU       CIN      In      -         10.548 f     -         
+key_control_inst.un4_cry_9_0             ALU       COUT     Out     0.057     10.605 f     -         
+un4_cry_9                                Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_10_0            ALU       CIN      In      -         10.605 f     -         
+key_control_inst.un4_cry_10_0            ALU       COUT     Out     0.057     10.662 f     -         
+un4_cry_10                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_11_0            ALU       CIN      In      -         10.662 f     -         
+key_control_inst.un4_cry_11_0            ALU       COUT     Out     0.057     10.719 f     -         
+un4_cry_11                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_12_0            ALU       CIN      In      -         10.719 f     -         
+key_control_inst.un4_cry_12_0            ALU       COUT     Out     0.057     10.776 f     -         
+un4_cry_12                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_13_0            ALU       CIN      In      -         10.776 f     -         
+key_control_inst.un4_cry_13_0            ALU       COUT     Out     0.057     10.833 f     -         
+un4_cry_13                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_14_0            ALU       CIN      In      -         10.833 f     -         
+key_control_inst.un4_cry_14_0            ALU       COUT     Out     0.057     10.890 f     -         
+un4_cry_14                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_15_0            ALU       CIN      In      -         10.890 f     -         
+key_control_inst.un4_cry_15_0            ALU       COUT     Out     0.057     10.947 f     -         
+un4_cry_15                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_16_0            ALU       CIN      In      -         10.947 f     -         
+key_control_inst.un4_cry_16_0            ALU       COUT     Out     0.057     11.004 f     -         
+un4_cry_16                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_17_0            ALU       CIN      In      -         11.004 f     -         
+key_control_inst.un4_cry_17_0            ALU       COUT     Out     0.057     11.061 f     -         
+un4_cry_17                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_18_0            ALU       CIN      In      -         11.061 f     -         
+key_control_inst.un4_cry_18_0            ALU       COUT     Out     0.057     11.118 f     -         
+un4_cry_18                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_19_0            ALU       CIN      In      -         11.118 f     -         
+key_control_inst.un4_cry_19_0            ALU       COUT     Out     0.057     11.175 f     -         
+un4_cry_19                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_20_0            ALU       CIN      In      -         11.175 f     -         
+key_control_inst.un4_cry_20_0            ALU       COUT     Out     0.057     11.232 f     -         
+un4_cry_20                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_21_0            ALU       CIN      In      -         11.232 f     -         
+key_control_inst.un4_cry_21_0            ALU       COUT     Out     0.057     11.289 f     -         
+un4_cry_21                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_22_0            ALU       CIN      In      -         11.289 f     -         
+key_control_inst.un4_cry_22_0            ALU       COUT     Out     0.057     11.346 f     -         
+un4_cry_22                               Net       -        -       0.000     -            1         
+key_control_inst.un4_cry_23_0            ALU       CIN      In      -         11.346 f     -         
+key_control_inst.un4_cry_23_0            ALU       COUT     Out     0.057     11.403 f     -         
+un4_cry_23                               Net       -        -       0.000     -            1         
+key_control_inst.un4_s_24_0              ALU       CIN      In      -         11.403 f     -         
+key_control_inst.un4_s_24_0              ALU       SUM      Out     0.563     11.966 f     -         
+ch2_FREQ_CTRL_3[24]                      Net       -        -       1.021     -            1         
+key_control_inst.ch2_FREQ_CTRL_1[24]     DFFR      D        In      -         12.987 f     -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 13.120 is 8.015(61.1%) logic and 5.105(38.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      11.152
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         11.019
+
+    - Propagation time:                      12.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.968
+
+    Number of logic level(s):                27
+    Starting point:                          key_control_inst.ch1_fre_l[0] / Q
+    Ending point:                            key_control_inst.ch1_FREQ_CTRL_1[24] / D
+    The start point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+    The end   point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival      No. of    
+Name                                          Type      Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+key_control_inst.ch1_fre_l[0]                 DFFRE     Q        Out     0.367     0.367 r      -         
+ch1_fre_l[0]                                  Net       -        -       1.021     -            9         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       I1       In      -         1.388 r      -         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       COUT     Out     1.045     2.433 f      -         
+un1_ch1_fre_l_1_c1                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       CIN      In      -         2.433 f      -         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       COUT     Out     0.057     2.490 f      -         
+un1_ch1_fre_l_1_c2                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       CIN      In      -         2.490 f      -         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       COUT     Out     0.057     2.547 f      -         
+un1_ch1_fre_l_1_c3                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       CIN      In      -         2.547 f      -         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       COUT     Out     0.057     2.604 f      -         
+un1_ch1_fre_l_1_c4                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_361_0          ALU       CIN      In      -         2.604 f      -         
+key_control_inst.un1_ch1_fre_l_361_0          ALU       SUM      Out     0.563     3.167 f      -         
+un1_ch1_fre_l_1[5]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       I1       In      -         4.188 f      -         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       COUT     Out     1.045     5.233 f      -         
+un1_ch1_fre_l_9_c5                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_540_0          ALU       CIN      In      -         5.233 f      -         
+key_control_inst.un1_ch1_fre_l_540_0          ALU       SUM      Out     0.563     5.796 f      -         
+un1_ch1_fre_l_9[6]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       I1       In      -         6.817 f      -         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       COUT     Out     1.045     7.862 f      -         
+un1_ch1_fre_l_13_c6                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       CIN      In      -         7.862 f      -         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       COUT     Out     0.057     7.919 f      -         
+un1_ch1_fre_l_13_c7                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       CIN      In      -         7.919 f      -         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       SUM      Out     0.563     8.482 f      -         
+un1_ch1_fre_h_1                               Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_8_0      ALU       I1       In      -         9.503 f      -         
+key_control_inst.un1_ch1_fre_h_1_cry_8_0      ALU       COUT     Out     1.045     10.548 f     -         
+un1_ch1_fre_h_1_cry_8                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       CIN      In      -         10.548 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       COUT     Out     0.057     10.605 f     -         
+un1_ch1_fre_h_1_cry_9                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       CIN      In      -         10.605 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       COUT     Out     0.057     10.662 f     -         
+un1_ch1_fre_h_1_cry_10                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       CIN      In      -         10.662 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       COUT     Out     0.057     10.719 f     -         
+un1_ch1_fre_h_1_cry_11                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       CIN      In      -         10.719 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       COUT     Out     0.057     10.776 f     -         
+un1_ch1_fre_h_1_cry_12                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       CIN      In      -         10.776 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       COUT     Out     0.057     10.833 f     -         
+un1_ch1_fre_h_1_cry_13                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       CIN      In      -         10.833 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       COUT     Out     0.057     10.890 f     -         
+un1_ch1_fre_h_1_cry_14                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       CIN      In      -         10.890 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       COUT     Out     0.057     10.947 f     -         
+un1_ch1_fre_h_1_cry_15                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       CIN      In      -         10.947 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       COUT     Out     0.057     11.004 f     -         
+un1_ch1_fre_h_1_cry_16                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       CIN      In      -         11.004 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       COUT     Out     0.057     11.061 f     -         
+un1_ch1_fre_h_1_cry_17                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       CIN      In      -         11.061 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       COUT     Out     0.057     11.118 f     -         
+un1_ch1_fre_h_1_cry_18                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       CIN      In      -         11.118 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       COUT     Out     0.057     11.175 f     -         
+un1_ch1_fre_h_1_cry_19                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       CIN      In      -         11.175 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       COUT     Out     0.057     11.232 f     -         
+un1_ch1_fre_h_1_cry_20                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       CIN      In      -         11.232 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       COUT     Out     0.057     11.289 f     -         
+un1_ch1_fre_h_1_cry_21                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       CIN      In      -         11.289 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       COUT     Out     0.057     11.346 f     -         
+un1_ch1_fre_h_1_cry_22                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       CIN      In      -         11.346 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       COUT     Out     0.057     11.403 f     -         
+un1_ch1_fre_h_1_cry_23                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       CIN      In      -         11.403 f     -         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       SUM      Out     0.563     11.966 f     -         
+ch1_FREQ_CTRL_3[24]                           Net       -        -       1.021     -            1         
+key_control_inst.ch1_FREQ_CTRL_1[24]          DFFR      D        In      -         12.987 f     -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 13.120 is 8.015(61.1%) logic and 5.105(38.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      11.152
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         11.019
+
+    - Propagation time:                      12.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.968
+
+    Number of logic level(s):                27
+    Starting point:                          key_control_inst.ch1_fre_l[0] / Q
+    Ending point:                            key_control_inst.ch1_FREQ_CTRL_1[24] / D
+    The start point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+    The end   point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival      No. of    
+Name                                          Type      Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+key_control_inst.ch1_fre_l[0]                 DFFRE     Q        Out     0.367     0.367 r      -         
+ch1_fre_l[0]                                  Net       -        -       1.021     -            9         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       I1       In      -         1.388 r      -         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       COUT     Out     1.045     2.433 f      -         
+un1_ch1_fre_l_1_c1                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       CIN      In      -         2.433 f      -         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       COUT     Out     0.057     2.490 f      -         
+un1_ch1_fre_l_1_c2                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       CIN      In      -         2.490 f      -         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       COUT     Out     0.057     2.547 f      -         
+un1_ch1_fre_l_1_c3                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       CIN      In      -         2.547 f      -         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       SUM      Out     0.563     3.110 f      -         
+un1_ch1_fre_l_1[4]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_534_0          ALU       I1       In      -         4.131 f      -         
+key_control_inst.un1_ch1_fre_l_534_0          ALU       COUT     Out     1.045     5.176 f      -         
+un1_ch1_fre_l_9_c4                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       CIN      In      -         5.176 f      -         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       COUT     Out     0.057     5.233 f      -         
+un1_ch1_fre_l_9_c5                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_540_0          ALU       CIN      In      -         5.233 f      -         
+key_control_inst.un1_ch1_fre_l_540_0          ALU       SUM      Out     0.563     5.796 f      -         
+un1_ch1_fre_l_9[6]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       I1       In      -         6.817 f      -         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       COUT     Out     1.045     7.862 f      -         
+un1_ch1_fre_l_13_c6                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       CIN      In      -         7.862 f      -         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       COUT     Out     0.057     7.919 f      -         
+un1_ch1_fre_l_13_c7                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       CIN      In      -         7.919 f      -         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       SUM      Out     0.563     8.482 f      -         
+un1_ch1_fre_h_1                               Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_8_0      ALU       I1       In      -         9.503 f      -         
+key_control_inst.un1_ch1_fre_h_1_cry_8_0      ALU       COUT     Out     1.045     10.548 f     -         
+un1_ch1_fre_h_1_cry_8                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       CIN      In      -         10.548 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       COUT     Out     0.057     10.605 f     -         
+un1_ch1_fre_h_1_cry_9                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       CIN      In      -         10.605 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       COUT     Out     0.057     10.662 f     -         
+un1_ch1_fre_h_1_cry_10                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       CIN      In      -         10.662 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       COUT     Out     0.057     10.719 f     -         
+un1_ch1_fre_h_1_cry_11                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       CIN      In      -         10.719 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       COUT     Out     0.057     10.776 f     -         
+un1_ch1_fre_h_1_cry_12                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       CIN      In      -         10.776 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       COUT     Out     0.057     10.833 f     -         
+un1_ch1_fre_h_1_cry_13                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       CIN      In      -         10.833 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       COUT     Out     0.057     10.890 f     -         
+un1_ch1_fre_h_1_cry_14                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       CIN      In      -         10.890 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       COUT     Out     0.057     10.947 f     -         
+un1_ch1_fre_h_1_cry_15                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       CIN      In      -         10.947 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       COUT     Out     0.057     11.004 f     -         
+un1_ch1_fre_h_1_cry_16                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       CIN      In      -         11.004 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       COUT     Out     0.057     11.061 f     -         
+un1_ch1_fre_h_1_cry_17                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       CIN      In      -         11.061 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       COUT     Out     0.057     11.118 f     -         
+un1_ch1_fre_h_1_cry_18                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       CIN      In      -         11.118 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       COUT     Out     0.057     11.175 f     -         
+un1_ch1_fre_h_1_cry_19                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       CIN      In      -         11.175 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       COUT     Out     0.057     11.232 f     -         
+un1_ch1_fre_h_1_cry_20                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       CIN      In      -         11.232 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       COUT     Out     0.057     11.289 f     -         
+un1_ch1_fre_h_1_cry_21                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       CIN      In      -         11.289 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       COUT     Out     0.057     11.346 f     -         
+un1_ch1_fre_h_1_cry_22                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       CIN      In      -         11.346 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       COUT     Out     0.057     11.403 f     -         
+un1_ch1_fre_h_1_cry_23                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       CIN      In      -         11.403 f     -         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       SUM      Out     0.563     11.966 f     -         
+ch1_FREQ_CTRL_3[24]                           Net       -        -       1.021     -            1         
+key_control_inst.ch1_FREQ_CTRL_1[24]          DFFR      D        In      -         12.987 f     -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 13.120 is 8.015(61.1%) logic and 5.105(38.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      11.152
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         11.019
+
+    - Propagation time:                      12.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.968
+
+    Number of logic level(s):                27
+    Starting point:                          key_control_inst.ch1_fre_l[0] / Q
+    Ending point:                            key_control_inst.ch1_FREQ_CTRL_1[24] / D
+    The start point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+    The end   point is clocked by            top_dds|sys_clk [rising] (rise=0.000 fall=5.576 period=11.152) on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival      No. of    
+Name                                          Type      Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+key_control_inst.ch1_fre_l[0]                 DFFRE     Q        Out     0.367     0.367 r      -         
+ch1_fre_l[0]                                  Net       -        -       1.021     -            9         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       I1       In      -         1.388 r      -         
+key_control_inst.un1_ch1_fre_l_337_0          ALU       COUT     Out     1.045     2.433 f      -         
+un1_ch1_fre_l_1_c1                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       CIN      In      -         2.433 f      -         
+key_control_inst.un1_ch1_fre_l_343_0          ALU       COUT     Out     0.057     2.490 f      -         
+un1_ch1_fre_l_1_c2                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       CIN      In      -         2.490 f      -         
+key_control_inst.un1_ch1_fre_l_349_0          ALU       COUT     Out     0.057     2.547 f      -         
+un1_ch1_fre_l_1_c3                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       CIN      In      -         2.547 f      -         
+key_control_inst.un1_ch1_fre_l_355_0          ALU       SUM      Out     0.563     3.110 f      -         
+un1_ch1_fre_l_1[4]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_534_0          ALU       I1       In      -         4.131 f      -         
+key_control_inst.un1_ch1_fre_l_534_0          ALU       COUT     Out     1.045     5.176 f      -         
+un1_ch1_fre_l_9_c4                            Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       CIN      In      -         5.176 f      -         
+key_control_inst.un1_ch1_fre_l_537_0          ALU       SUM      Out     0.563     5.739 f      -         
+un1_ch1_fre_l_9[5]                            Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_l_597_0          ALU       I1       In      -         6.760 f      -         
+key_control_inst.un1_ch1_fre_l_597_0          ALU       COUT     Out     1.045     7.805 f      -         
+un1_ch1_fre_l_13_c5                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       CIN      In      -         7.805 f      -         
+key_control_inst.un1_ch1_fre_l_600_0          ALU       COUT     Out     0.057     7.862 f      -         
+un1_ch1_fre_l_13_c6                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       CIN      In      -         7.862 f      -         
+key_control_inst.un1_ch1_fre_l_603_0          ALU       COUT     Out     0.057     7.919 f      -         
+un1_ch1_fre_l_13_c7                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       CIN      In      -         7.919 f      -         
+key_control_inst.un1_ch1_fre_l_606_0          ALU       COUT     Out     0.057     7.976 f      -         
+un1_ch1_fre_l_13_c8                           Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_l_609_0          ALU       CIN      In      -         7.976 f      -         
+key_control_inst.un1_ch1_fre_l_609_0          ALU       SUM      Out     0.563     8.539 f      -         
+un1_ch1_fre_l_13[9]                           Net       -        -       1.021     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       I1       In      -         9.560 f      -         
+key_control_inst.un1_ch1_fre_h_1_cry_9_0      ALU       COUT     Out     1.045     10.605 f     -         
+un1_ch1_fre_h_1_cry_9                         Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       CIN      In      -         10.605 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_10_0     ALU       COUT     Out     0.057     10.662 f     -         
+un1_ch1_fre_h_1_cry_10                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       CIN      In      -         10.662 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_11_0     ALU       COUT     Out     0.057     10.719 f     -         
+un1_ch1_fre_h_1_cry_11                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       CIN      In      -         10.719 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_12_0     ALU       COUT     Out     0.057     10.776 f     -         
+un1_ch1_fre_h_1_cry_12                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       CIN      In      -         10.776 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_13_0     ALU       COUT     Out     0.057     10.833 f     -         
+un1_ch1_fre_h_1_cry_13                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       CIN      In      -         10.833 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_14_0     ALU       COUT     Out     0.057     10.890 f     -         
+un1_ch1_fre_h_1_cry_14                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       CIN      In      -         10.890 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_15_0     ALU       COUT     Out     0.057     10.947 f     -         
+un1_ch1_fre_h_1_cry_15                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       CIN      In      -         10.947 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_16_0     ALU       COUT     Out     0.057     11.004 f     -         
+un1_ch1_fre_h_1_cry_16                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       CIN      In      -         11.004 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_17_0     ALU       COUT     Out     0.057     11.061 f     -         
+un1_ch1_fre_h_1_cry_17                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       CIN      In      -         11.061 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_18_0     ALU       COUT     Out     0.057     11.118 f     -         
+un1_ch1_fre_h_1_cry_18                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       CIN      In      -         11.118 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_19_0     ALU       COUT     Out     0.057     11.175 f     -         
+un1_ch1_fre_h_1_cry_19                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       CIN      In      -         11.175 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_20_0     ALU       COUT     Out     0.057     11.232 f     -         
+un1_ch1_fre_h_1_cry_20                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       CIN      In      -         11.232 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_21_0     ALU       COUT     Out     0.057     11.289 f     -         
+un1_ch1_fre_h_1_cry_21                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       CIN      In      -         11.289 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_22_0     ALU       COUT     Out     0.057     11.346 f     -         
+un1_ch1_fre_h_1_cry_22                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       CIN      In      -         11.346 f     -         
+key_control_inst.un1_ch1_fre_h_1_cry_23_0     ALU       COUT     Out     0.057     11.403 f     -         
+un1_ch1_fre_h_1_cry_23                        Net       -        -       0.000     -            1         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       CIN      In      -         11.403 f     -         
+key_control_inst.un1_ch1_fre_h_1_s_24_0       ALU       SUM      Out     0.563     11.966 f     -         
+ch1_FREQ_CTRL_3[24]                           Net       -        -       1.021     -            1         
+key_control_inst.ch1_FREQ_CTRL_1[24]          DFFR      D        In      -         12.987 f     -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 13.120 is 8.015(61.1%) logic and 5.105(38.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 227MB peak: 227MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 227MB peak: 227MB)
+
+---------------------------------------
+Resource Usage Report for top_dds 
+
+Mapping to part: gw1n_1qfn48-6
+Cell usage:
+ALU             306 uses
+DFF             4 uses
+DFFC            88 uses
+DFFCE           20 uses
+DFFE            20 uses
+DFFR            45 uses
+DFFRE           22 uses
+DFFS            32 uses
+DFFSE           13 uses
+GSR             1 use
+INV             2 uses
+pROM            4 uses
+LUT2            24 uses
+LUT3            29 uses
+LUT4            13 uses
+
+I/O ports: 31
+I/O primitives: 31
+IBUF           15 uses
+OBUF           16 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   244 of 864 (28%)
+
+RAM/ROM usage summary
+Block Rams : 4 of 4 (100%)
+
+Total load per clock:
+   top_dds|sys_clk: 248
+
+@S |Mapping Summary:
+Total  LUTs: 66 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 74MB peak: 227MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Thu May  6 09:52:35 2021
+
+###########################################################]
