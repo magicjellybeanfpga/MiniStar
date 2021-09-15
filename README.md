@@ -17,6 +17,8 @@ Enables a seamless connection between programmable logic devices and embedded pr
 
 * Embedded 256Kbit Flash
 
+* 64Mbit HyperRAM
+
 * High Speed Flex Connectors for GPIO and LVDS IO
 
 * Selectable IO Voltages
