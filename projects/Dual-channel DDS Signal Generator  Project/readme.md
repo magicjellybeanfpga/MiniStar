@@ -1,4 +1,4 @@
-# Dual
+# Dual-Channel DDS Signal Generator Project
 
 1. Introduction
 
