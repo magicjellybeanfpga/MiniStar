@@ -1,0 +1,5 @@
+`define GOWIN_UART0_SUPPORT
+`define GOWIN_RTC_SUPPORT
+`define GOWIN_I2C_SUPPORT
+`define I2C_IOBUF_EN
+`define NUM_BRAMS_8
