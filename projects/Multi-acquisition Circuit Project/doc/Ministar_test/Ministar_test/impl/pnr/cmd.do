@@ -1,0 +1,10 @@
+-d F:\gowin\Ministar_test\Ministar_test\impl\gwsynthesis\water_led.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst F:\gowin\Ministar_test\Ministar_test\src\water_led.cst
+-cfg F:\gowin\Ministar_test\Ministar_test\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

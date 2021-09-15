@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="7" partNumber="GW1NSR-LV4CQN48PC7/I6"/>
+    <FileList>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\top.v" type="verilog"/>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\divider.v" type="verilog"/>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\txd.v" type="verilog"/>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\uart_ctrl.v" type="verilog"/>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\UART_Tx_module.v" type="verilog"/>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\DS18B20_single_measure.v" type="verilog"/>
+        <File path="F:\gowin\Ministar_test\Ministar_test\src\fifo_sc_top\fifo_sc_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="F:\gowin\Ministar_test\Ministar_test\impl\gwsynthesis\water_led.vg"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
