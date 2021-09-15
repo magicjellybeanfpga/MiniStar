@@ -1,0 +1,33 @@
+Reading netlist file: "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\gwsynthesis\GOWIN_FREQMEASURE.vg"
+Parsing netlist file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\gwsynthesis\GOWIN_FREQMEASURE.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\GOWIN_FREQMEASURE.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk_div_6" and "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "ctl_inst0/clkb_Z" and "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk" and "ctl_inst0/clkb_Z"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk" and "clk_div_6"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\pnr\GOWIN_FREQMEASURE.power.html" completed
+Generate file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\pnr\GOWIN_FREQMEASURE.pin.html" completed
+Generate file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\pnr\GOWIN_FREQMEASURE.rpt.html" completed
+Generate file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\pnr\GOWIN_FREQMEASURE.rpt.txt" completed
+Generate file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\pnr\GOWIN_FREQMEASURE.tr.html" completed
+Sat May 08 13:22:59 2021
+

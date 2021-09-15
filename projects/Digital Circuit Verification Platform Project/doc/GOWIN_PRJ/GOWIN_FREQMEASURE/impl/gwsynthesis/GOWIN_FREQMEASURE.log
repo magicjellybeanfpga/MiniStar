@@ -1,0 +1,82 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v'
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\MeasureFreq.v'
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v'
+WARN  (EX3638) : 'clk_div' is already implicitly declared on line 60("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":72)
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\USART_Band.v'
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\USART_rx.v'
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\USART_tx.v'
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\gowin_pllvr\gowin_pllvr.v'
+Analyzing Verilog file 'D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\DigitalTube_Mea.v'
+Compiling module 'TOP'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":23)
+Compiling module 'Gowin_PLLVR'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\gowin_pllvr\gowin_pllvr.v":9)
+Compiling module 'Control_TOP'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v":23)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v":213)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v":325)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v":336)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v":470)
+Compiling module 'USART_Band(BandRate=9600)'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\USART_Band.v":21)
+Compiling module 'USART_tx'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\USART_tx.v":21)
+Compiling module 'USART_rx'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\USART_rx.v":21)
+Compiling module 'MeasureFreq'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\MeasureFreq.v":23)
+Compiling module 'DigitalTube_Mea'("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\DigitalTube_Mea.v":23)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\DigitalTube_Mea.v":115)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\DigitalTube_Mea.v":126)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\DigitalTube_Mea.v":136)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\DigitalTube_Mea.v":146)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":85)
+WARN  (EX1947) : Input port 'I_digtube_en' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_sel[3]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_sel[2]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_sel[1]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_sel[0]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[7]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[6]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[5]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[4]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[3]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[2]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[1]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_seg[0]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[15]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[14]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[13]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[12]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[11]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[10]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[9]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[8]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[7]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[6]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[5]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[4]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[3]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[2]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[1]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+WARN  (EX1947) : Input port 'I_digtube_disp_data[0]' remains unconnected for this instance("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\TOP.v":69)
+NOTE  (EX0101) : Current top module is "TOP"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "DigitalTube_Mea" instantiated to "MeaDut_inst0" is swept in optimizing("D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\src\Control_TOP.v":609)
+[95%] Generate netlist file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\gwsynthesis\GOWIN_FREQMEASURE.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "clkb_Z" and "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "clk_div_6" and "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk" and "clkb_Z"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "pll_inst0/pllvr_inst/CLKOUT.default_gen_clk" and "clk_div_6"
+[100%] Generate report file "D:\FILE\FPGA\GOWIN_PRJ\GOWIN_FREQMEASURE\impl\gwsynthesis\GOWIN_FREQMEASURE_syn.rpt.html" completed
+GowinSynthesis finish
