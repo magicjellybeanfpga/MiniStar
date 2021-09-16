@@ -4,7 +4,7 @@
 
 MiniStar development board
 
-<img src="/projects/CHIP8 FPGA/pics/CHIP8 pic (1).png" width= "200">
+<img src="/projects/Chip8 Fpga Project/pic/CHIP8 pic (1).png" width= "200">
 
 0.96 inch OLED12864 LCD I2C driver ssd1315
 
