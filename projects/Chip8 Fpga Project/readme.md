@@ -1,5 +1,7 @@
 # Chip8 FPGA Project
 
+By: Bingsu Liu 
+
 ## Hardware Platform
 
 MiniStar development board
