@@ -1,5 +1,7 @@
 # Use VSCode and GN+Ninja to Compile Gowin GW1NS-4 Project
 
+By: Long Li 
+
 Because I did not download official IDE, I modified the official source code to rebuilt the build system based on GN + Ninja, and use VSCode to edit the source code and compile it on the command line (or use VSCode's Task to compile).
 GN+Ninja build system directory description:
 
