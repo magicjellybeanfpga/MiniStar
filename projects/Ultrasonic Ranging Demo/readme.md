@@ -1,5 +1,7 @@
 # Ultrasonic Ranging Demo
 
+By: Jianhui Wang
+
 In this demo, it should be noted that the tubes in the routine are connected by
 common anode. Because I do not find anode digital tube for this demo, I
 change some code, so that I can use the common cathode tube to display.
