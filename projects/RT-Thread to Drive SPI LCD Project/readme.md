@@ -1,5 +1,7 @@
 # RT-Thread Nano
 
+By: Weizhong Qin
+
 RT-Thread Nano is  a  minimalist version of the hard real-time kernel, which is developed in    C,  with a programming dimension oriented towards the elephant, with a good code style, and is a cropped, preemptive real-time multi-task   RTOS  。 Its memory      resources take up very little, and its functions include service management, software timer, semaphore, mail box and   real-time adjustment, etc.  Field integration for    32-bit  ARM  entry-level MCUs that are heavily used in home  appliances,  consumer power, medical equipment, industrial control, and more.  
 
 The  following image is RT-Thread Nano's software  block diagram, which contains a supported CPU architecture and kernel source, as well as a removable FinSH  component:  
