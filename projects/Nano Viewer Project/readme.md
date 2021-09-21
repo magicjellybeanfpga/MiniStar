@@ -18,7 +18,7 @@ The 3D model of the circuit board is as shown below.
 
 Nano Viewer hardware is shown below.
 
-<img src="/projects/Nano Viewer Project/pic/pic (3).png" width= "400">
+<img src="/projects/Nano Viewer Project/pic/pic (3) .png" width= "400">
 
 ## Software Design
 
