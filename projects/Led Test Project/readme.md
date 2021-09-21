@@ -1,5 +1,7 @@
 # LED Test Project
 
+By: Jinghu Liang 
+
 1. Introduction
 
 This LED demo is based on MINI_STAR_4K development board, and use
