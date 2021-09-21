@@ -1,5 +1,7 @@
 # Bus2qspi_Ministar
 
+By:Fanyu Zeng  
+
 I am going to modify the ROM of an old machine so that it can update custom firmware. Its system is on a mask ROM board.
 
 The host is a spdc1016 soc, with an instruction set of 6502, 23-bit parallel address and an 8-bit AD multiplexer lines.
