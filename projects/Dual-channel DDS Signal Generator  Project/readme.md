@@ -1,5 +1,7 @@
 # Dual-Channel DDS Signal Generator Project
 
+By: Yan Wu
+
 1. Introduction
 
 This project uses Gowin FPGA (GW1N-LV1) as the core, and peripheral circuits such as DAC and keypad are built to realize a dual-channel DDS signal generator. The waveform, frequency and phase of each channel can be adjusted independently by pushbuttons and dip switches. With the potentiometer, the amplitude of the final output waveform of each channel can be adjusted.
