@@ -1,6 +1,6 @@
 # Bus2qspi_Ministar
 
-By:Fanyu Zeng  
+By: Fanyu Zeng  
 
 I am going to modify the ROM of an old machine so that it can update custom firmware. Its system is on a mask ROM board.
 
