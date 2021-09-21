@@ -1,5 +1,7 @@
 # Square Wave Generation Project
 
+By: Guowei Sun 
+
 ### Project Design
 
 The design includes the following parts.
