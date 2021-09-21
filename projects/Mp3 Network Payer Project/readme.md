@@ -1,5 +1,7 @@
 # MP3 Network Player Project
 
+By: Xiaobing Chen 
+
 ## Project Design
 
 FPGA controls communication between RTL8201CP chip and computer to receive MP3 audio stream from the computer to store in FIFO. FPGA communicates with M3 hardcore through AHB bus. M3 hardcore reads the audio stream on AHB bus through SPI interface; then output the data to VS1003B chip for MP3 decoding to output analog audio.
