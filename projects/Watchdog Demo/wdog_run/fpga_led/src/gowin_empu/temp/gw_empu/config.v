@@ -1,3 +1,0 @@
-`define GOWIN_GPIO_SUPPORT
-`define GOWIN_UART0_SUPPORT
-`define NUM_BRAMS_8
