@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC7/I6">gw1nsr4c-009</Device>
+    <FileList>
+        <File path="src/Control_TOP.v" type="file.verilog" enable="1"/>
+        <File path="src/DigitalTube_Mea.v" type="file.verilog" enable="1"/>
+        <File path="src/MeasureFreq.v" type="file.verilog" enable="1"/>
+        <File path="src/TOP.v" type="file.verilog" enable="1"/>
+        <File path="src/USART_Band.v" type="file.verilog" enable="1"/>
+        <File path="src/USART_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/USART_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pllvr/gowin_pllvr.v" type="file.verilog" enable="1"/>
+        <File path="src/GOWIN_FREQMEASURE.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

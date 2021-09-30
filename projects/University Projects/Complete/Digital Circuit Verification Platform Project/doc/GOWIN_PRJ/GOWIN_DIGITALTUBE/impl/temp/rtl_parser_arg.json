@@ -1,0 +1,48 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/Control_TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/DigitalTube_Mea.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/Digital_Tube.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/MeasureFreq.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/TestTop_DigitalTube.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/USART_Band.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/USART_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/USART_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/FILE/FPGA/GOWIN_PRJ/GOWIN_DIGITALTUBE/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
