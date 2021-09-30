@@ -1,0 +1,189 @@
+Dependencies for Project 'led', Target 'led': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\CORE\core_cm3.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (..\STARTUP\startup_gw1ns4c.s)(0x5EA9206F)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "ARMCM3 SETA 1"--list .\listings\startup_gw1ns4c.lst --xref -o .\objects\startup_gw1ns4c.o --depend .\objects\startup_gw1ns4c.d)
+F (..\SYSTEM\system_gw1ns4c.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\system_gw1ns4c.o --omf_browse .\objects\system_gw1ns4c.crf --depend .\objects\system_gw1ns4c.d)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_gpio.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_gpio.o --omf_browse .\objects\gw1ns4c_gpio.crf --depend .\objects\gw1ns4c_gpio.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_i2c.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_i2c.o --omf_browse .\objects\gw1ns4c_i2c.crf --depend .\objects\gw1ns4c_i2c.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_misc.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_misc.o --omf_browse .\objects\gw1ns4c_misc.crf --depend .\objects\gw1ns4c_misc.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_rtc.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_rtc.o --omf_browse .\objects\gw1ns4c_rtc.crf --depend .\objects\gw1ns4c_rtc.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_spi.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_spi.o --omf_browse .\objects\gw1ns4c_spi.crf --depend .\objects\gw1ns4c_spi.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_syscon.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_syscon.o --omf_browse .\objects\gw1ns4c_syscon.crf --depend .\objects\gw1ns4c_syscon.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_timer.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_timer.o --omf_browse .\objects\gw1ns4c_timer.crf --depend .\objects\gw1ns4c_timer.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_uart.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_uart.o --omf_browse .\objects\gw1ns4c_uart.crf --depend .\objects\gw1ns4c_uart.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\PERIPHERAL\Sources\gw1ns4c_wdog.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_wdog.o --omf_browse .\objects\gw1ns4c_wdog.crf --depend .\objects\gw1ns4c_wdog.d)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\USER\gw1ns4c_it.c)(0x5EA9206F)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\gw1ns4c_it.o --omf_browse .\objects\gw1ns4c_it.crf --depend .\objects\gw1ns4c_it.d)
+I (..\USER\gw1ns4c_it.h)(0x5EA9206F)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+F (..\USER\main.c)(0x60AFA9FE)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\PERIPHERAL\Includes -I ..\SYSTEM -I ..\USER-I.\RTE\_led-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\SYSTEM\gw1ns4c.h)(0x5EA9206F)
+I (..\CORE\core_cm3.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\SYSTEM\system_gw1ns4c.h)(0x5EA9206F)
+I (..\USER\gw1ns4c_conf.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x5EA9206F)
+I (..\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x5EA9206F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
