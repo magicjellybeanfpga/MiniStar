@@ -1,0 +1,136 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\Gowin\Gowin_V1.9.6Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW1N_4LQFP144-6 (GoWin)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   top_ult   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     75                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_ult:	75 (28.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          96                 100 %                
+MUX2_LUT5     9                  100 %                
+MUX2_LUT6     3                  100 %                
+ALU           43                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top_ult:	151 (56.77 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   cnt   ########
+Instance path:   top_ult.cnt                             
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     51                 68 %                 
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_ult.cnt:	51 (19.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          61                 63.5 %               
+MUX2_LUT5     9                  100 %                
+MUX2_LUT6     3                  100 %                
+ALU           34                 79.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top_ult.cnt:	107 (40.23 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   div_clk   ########
+Instance path:   top_ult.div_clk                             
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 13.3 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_ult.div_clk:	10 (3.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  5.21 %               
+ALU      9                  20.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_ult.div_clk:	14 (5.26 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_0   ########
+Instance path:   top_ult.seq_control_0                             
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  6.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_ult.seq_control_0:	6 (2.26 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_1   ########
+Instance path:   top_ult.seq_control_1                             
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  7.29 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_ult.seq_control_1:	7 (2.63 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_2   ########
+Instance path:   top_ult.seq_control_2                             
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  6.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_ult.seq_control_2:	6 (2.26 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_3   ########
+Instance path:   top_ult.seq_control_3                             
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     11                 11.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_ult.seq_control_3:	11 (4.14 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
