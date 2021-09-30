@@ -1,0 +1,36 @@
+F:/source_code/make_fire/ult/tb/tb_top_ult.v {1 {vlog -work work -stats=none F:/source_code/make_fire/ult/tb/tb_top_ult.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_top_ult
+
+Top level modules:
+	tb_top_ult
+
+} {} {}} F:/source_code/make_fire/ult/src/seg_control.v {1 {vlog -work work -stats=none F:/source_code/make_fire/ult/src/seg_control.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module seq_control
+
+Top level modules:
+	seq_control
+
+} {} {}} F:/source_code/make_fire/ult/src/div_clk.v {1 {vlog -work work -stats=none F:/source_code/make_fire/ult/src/div_clk.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module div_clk
+
+Top level modules:
+	div_clk
+
+} {} {}} F:/source_code/make_fire/ult/src/seq_control.v {1 {vlog -work work -stats=none F:/source_code/make_fire/ult/src/seq_control.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module seq_control
+
+Top level modules:
+	seq_control
+
+} {} {}} F:/source_code/make_fire/ult/src/control.v {1 {vlog -work work -stats=none F:/source_code/make_fire/ult/src/control.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}}

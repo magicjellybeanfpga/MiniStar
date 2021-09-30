@@ -1,0 +1,40 @@
+//Copyright (C)2014-2020 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.7.01Beta
+//Part Number: GW1NSR-LV4CQN48PC7/I6
+//Device: GW1NSR-4C
+//Created Time: Thu 04 08 17:43:28 2021
+
+IO_LOC "smg[7]" 33;
+IO_PORT "smg[7]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[6]" 8;
+IO_PORT "smg[6]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[5]" 28;
+IO_PORT "smg[5]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[4]" 30;
+IO_PORT "smg[4]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[3]" 32;
+IO_PORT "smg[3]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[2]" 44;
+IO_PORT "smg[2]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[1]" 35;
+IO_PORT "smg[1]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "smg[0]" 42;
+IO_PORT "smg[0]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "dig[3]" 45;
+IO_PORT "dig[3]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "dig[2]" 47;
+IO_PORT "dig[2]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "dig[1]" 48;
+IO_PORT "dig[1]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "dig[0]" 46;
+IO_PORT "dig[0]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "trig" 9;
+IO_PORT "trig" PULL_MODE=NONE DRIVE=8;
+IO_LOC "rstn" 2;
+IO_PORT "rstn" PULL_MODE=UP;
+IO_LOC "echo" 27;
+IO_PORT "echo" PULL_MODE=UP;
+IO_LOC "clk" 22;
+IO_PORT "clk" PULL_MODE=UP;
