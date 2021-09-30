@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=doge_rom
+module=doge_rom
+target_device=gw1nsr4c-000
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=4096
+LANG=0
+MEM_FILE=../doge.mi
+READ=0
+RESET_MODE=true
+WIDTH=16
