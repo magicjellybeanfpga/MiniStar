@@ -31,6 +31,16 @@ Figure 4 FPGA Pins
 
 In Figure 2, one end of the LED is connected to the power supply via a current-limiting resistor, and the other end is connected to the pin in Figure 3 (low level, on; high level, off). Use DuPont wire to connect the LED1~LED8 signals to the FPGA pins such as pins 48~35 in Figure 4 (you can also choose other pins). The connection is as shown in Figure 5.
 
+The project is defaulted to run the LEDs in order using the following pins:
+
+LED1=pin35
+LED2=pin33
+LED3=pin32
+LED4=pin40
+LED5=pin42
+LED6=pin44 
+LED7=pin46
+LED8=pin48
 
 <img src="/projects/Led Demo/led_run/pic/figure 5 (5).png" width= "400">
 
