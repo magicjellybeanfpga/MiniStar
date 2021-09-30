@@ -1,2 +1,0 @@
-@E: NF100 |Can't open input file C:\Users\wu\Desktop\gw_dds\DDS\impl\synthesize\rev_1\synwork\DDS_comp.srs for read
-
