@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top_ult" Register="14" Lut="3">
-    <SubModule name="cnt" Register="51" Alu="34" Lut="66"/>
-    <SubModule name="div_clk" Register="10" Alu="9" Lut="5"/>
-    <SubModule name="seq_control_0" Lut="11"/>
-    <SubModule name="seq_control_1" Lut="6"/>
-    <SubModule name="seq_control_2" Lut="7"/>
-    <SubModule name="seq_control_3" Lut="6"/>
-</Module>

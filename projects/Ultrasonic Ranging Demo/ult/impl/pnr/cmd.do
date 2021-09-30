@@ -1,9 +1,0 @@
--d C:\Users\Jerry\Desktop\3X\046.FPGA\002.Project\03.Ultrasonic\ult\ult\ult\impl\gwsynthesis\ult.vg
--p GW1NSR-4C-QFN48P-7
--pn GW1NSR-LV4CQN48PC7/I6
--cst C:\Users\Jerry\Desktop\3X\046.FPGA\002.Project\03.Ultrasonic\ult\ult\ult\src\ult.cst
--cfg C:\Users\Jerry\Desktop\3X\046.FPGA\002.Project\03.Ultrasonic\ult\ult\ult\impl\pnr\device.cfg
--bit
--tr
--ph
--timing
