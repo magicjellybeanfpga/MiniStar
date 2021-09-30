@@ -1,0 +1,9 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\root\Projects\Demo\MiniStar\pc1k_qspi2b\impl\synthesize\rev_1\pc1k_qspi2b.vm'
+Compiling module 'top'("D:\root\Projects\Demo\MiniStar\pc1k_qspi2b\impl\synthesize\rev_1\pc1k_qspi2b.vm":2386)
+Compiling module 'CLK133'("D:\root\Projects\Demo\MiniStar\pc1k_qspi2b\impl\synthesize\rev_1\pc1k_qspi2b.vm":21)
+Compiling module 'memhub'("D:\root\Projects\Demo\MiniStar\pc1k_qspi2b\impl\synthesize\rev_1\pc1k_qspi2b.vm":89)
+NOTE  (EX0101) : Current top module is "top"
+ERROR (EX0312) : There is no PLLVR resource in current device, please change device("D:\root\Projects\Demo\MiniStar\pc1k_qspi2b\impl\synthesize\rev_1\pc1k_qspi2b.vm":57)
+GowinSynthesis finish
