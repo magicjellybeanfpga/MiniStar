@@ -6,7 +6,7 @@ You will learn the basic principle and programming of watchdog by this demo. As 
 
 <img src="/projects/Watchdog Demo/wdog_run/pic/Board pic (1).png" width= "400">
 
-[Watchdog Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Watchdog%20Demo/wdog_run)
+[Watchdog Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/Watchdog%20Demo/wdog_run)
 
 ## Dip Switch Demo
 
@@ -16,7 +16,7 @@ You can use four dip switches on the extension board to control four 7-segment d
 
 <img src="/projects/Switch Run Demo/switch_run/images/Dip_switch_ministar_board_pic.jpg" width= "400">
 
-[Dip Switch Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Switch%20Run%20Demo/switch_run)
+[Dip Switch Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/Switch%20Run%20Demo/switch_run)
 
 ## LED Demo
 
@@ -24,7 +24,7 @@ You will learn how to use GPIO as the output by this demo. You can write code to
 
 <img src="/projects/Led Demo/led_run/pic/board pic (1).png" width= "400">
 
-[LED Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Led%20Demo/led_run)
+[LED Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/LED%20Demo/led_run)
 
 ## Keys Input Demo
 
@@ -32,7 +32,7 @@ You will learn how to use GPIO as the input by this demo. As shown in Figure 1, 
 
 <img src="/projects/Keys Input Demo/keyin_run/pic/board pic (1).png" width= "400">
 
-[Keys Input Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Keys%20Input%20Demo/keyin_run)
+[Keys Input Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/Keys%20Input%20Demo/keyin_run)
 
 ## Digital Tube Demo
 
@@ -40,7 +40,7 @@ You will learn how to use GPIO as the output to control the digital tube to disp
 
 <img src="/projects/Digital Tube Demo/seg_run/pic/Board pic (1).png" width= "400">
 
-[Digital Tube Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Digital%20Tube%20Demo/seg_run)
+[Digital Tube Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/Digital%20Tube%20Demo/seg_run)
 
 ## External Interrupt Demo 
 
@@ -49,7 +49,7 @@ You will learn how to use GPIO as external interrupt and output, and how to prog
 
 <img src="/projects/External Interrupt Demo/led_exti_int/pic/board 1 (1).png" width= "400">
 
-[External Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/External%20Interrupt%20Demo/led_exti_int)
+[External Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/External%20Interrupt%20Demo/led_exti_int)
 
 ## UART0 Interrupt Demo
 
@@ -57,4 +57,4 @@ You will learn UART and its interrupt programming by this demo. In order not to 
 
 <img src="/projects/UART0 Interrupt Demo/uart0_int_run/images/UART board pic (1).png" width= "400">
 
-[UART0 Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/UART0%20Interrupt%20Demo/uart0_int_run)
+[UART0 Interrupt Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/UART0%20Interrupt%20Demo/uart0_int_run)
