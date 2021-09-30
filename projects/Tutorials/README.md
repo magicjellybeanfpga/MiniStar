@@ -3,7 +3,7 @@
 Enables a seamless connection between programmable logic devices and embedded processors. It is compatible with a wide range of peripheral device standards, significantly reduces user costs, and can be widely used in industrial, communication, servo drive, and other fields.
 
 
-<img src="pic/MiniStar_board_thumbnail.jpg" align="right">
+<img src="/pic/MiniStar_board_thumbnail.jpg" align="right">
 
 ### Features:
 
@@ -27,7 +27,7 @@ Enables a seamless connection between programmable logic devices and embedded pr
 Take your MiniStar board to the next level with this fully compatible experimental board. Explore your programmable logic device to the limits!
 
 
-<img src="pic/MiniStar_experiment_carrier_thumbnail.jpg" align="right">
+<img src="/pic/MiniStar_experiment_carrier_thumbnail.jpg" align="right">
 
 
 ### Features:
@@ -52,7 +52,7 @@ Take your MiniStar board to the next level with this fully compatible experiment
 
 MagicJellyBean is an organization established to enable hobbyists, academic researchers and electronic enthusiasts with FPGA and microcontroller capabilities for embedded edge electronics projects. The intent is to create a community of like-minded individuals who can share ideas, projects and wisdom in the FPGA and microcontroller field through an affordable and easy to use platform.
 
-<img src="pic/logo_thumbnail.jpg" align="right">
+<img src="/pic/logo_thumbnail.jpg" align="right">
 
 ## Links
 
