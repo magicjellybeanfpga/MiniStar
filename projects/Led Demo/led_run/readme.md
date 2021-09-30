@@ -34,12 +34,19 @@ In Figure 2, one end of the LED is connected to the power supply via a current-l
 The project is defaulted to run the LEDs in order using the following pins:
 
 LED1=pin35
+
 LED2=pin33
+
 LED3=pin32
+
 LED4=pin40
+
 LED5=pin42
-LED6=pin44 
+
+LED6=pin44
+ 
 LED7=pin46
+
 LED8=pin48
 
 <img src="/projects/Led Demo/led_run/pic/figure 5 (5).png" width= "400">
