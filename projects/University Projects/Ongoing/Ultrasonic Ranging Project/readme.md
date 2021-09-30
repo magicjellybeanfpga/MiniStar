@@ -22,9 +22,9 @@ and segment-selection signal values to the corresponding values of the
 common cathode. Actually you just need to negate each bit in turn. The
 following is the code for the common cathode.
 
-<img src="/projects/University Projects/Ongoing/Ultrasonic Ranging Demo/pic/Ultrasonic pic (1).png" width= "400">
+<img src="/projects/University Projects/Ongoing/Ultrasonic Ranging Project/pic/Ultrasonic pic (1).png" width= "400">
 
-<img src="/projects/University Projects/Ongoing/Ultrasonic Ranging Demo/pic/Ultrasonic pic (2).png" width= "400">
+<img src="/projects/University Projects/Ongoing/Ultrasonic Ranging Project/pic/Ultrasonic pic (2).png" width= "400">
 
 After modification, switch menu to the "Process". Double click "Synthesize"
  and "Place & Route" in order.
