@@ -16,7 +16,7 @@ In order to take advantage of the GW1NSR-4C as much as possible, I design a disp
 
 Display Engine IP diagram is as shown below, and it is mounted on the AHB-Lite bus, with the functions of image storage and video output.
 
-<img src="/projects/HDMI Display Engine IP Project/pic/pic (1).png" width= "400">
+<img src="/projects/University Projects/Ongoing/HDMI Display Engine IP Project/pic/pic (1).png" width= "400">
 
 It can be seen that the structure includes Processing System (PS) and Programming Logic (PL).
 
