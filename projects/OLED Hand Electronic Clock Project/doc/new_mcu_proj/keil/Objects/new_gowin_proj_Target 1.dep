@@ -1,138 +1,0 @@
-Dependencies for Project 'new_gowin_proj', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\CORE\core_cm3.c)(0x607D49D2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-F (.\PERIPHERAL\Sources\gw1ns4c_gpio.c)(0x607D49E0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gw1ns4c_gpio.o --omf_browse .\objects\gw1ns4c_gpio.crf --depend .\objects\gw1ns4c_gpio.d)
-I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x607D49E0)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-F (.\PERIPHERAL\Sources\gw1ns4c_i2c.c)(0x609FE241)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gw1ns4c_i2c.o --omf_browse .\objects\gw1ns4c_i2c.crf --depend .\objects\gw1ns4c_i2c.d)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-F (.\PERIPHERAL\Sources\gw1ns4c_rtc.c)(0x609F9ECC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gw1ns4c_rtc.o --omf_browse .\objects\gw1ns4c_rtc.crf --depend .\objects\gw1ns4c_rtc.d)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-F (.\PERIPHERAL\Sources\gw1ns4c_uart.c)(0x607D49E0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gw1ns4c_uart.o --omf_browse .\objects\gw1ns4c_uart.crf --depend .\objects\gw1ns4c_uart.d)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-F (.\STARTUP\startup_gw1ns4c.s)(0x607D49D2)(--cpu Cortex-M3 --li --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "ARMCM3 SETA 1"--list .\listings\startup_gw1ns4c.lst --xref -o .\objects\startup_gw1ns4c.o --depend .\objects\startup_gw1ns4c.d)
-F (.\SYSTEM\system_gw1ns4c.c)(0x609FD984)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\system_gw1ns4c.o --omf_browse .\objects\system_gw1ns4c.crf --depend .\objects\system_gw1ns4c.d)
-I (SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-F (.\USER\gw1ns4c_it.c)(0x609FB3EC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gw1ns4c_it.o --omf_browse .\objects\gw1ns4c_it.crf --depend .\objects\gw1ns4c_it.d)
-I (USER\gw1ns4c_it.h)(0x607D49E0)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-F (.\USER\main.c)(0x609FDBE7)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-I (.\MODULE\OLED\oled.h)(0x609FDAB6)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-F (.\USER\retarget.c)(0x607D49D2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-F (.\MODULE\OLED\oled.c)(0x609FDA89)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
-I (MODULE\OLED\oled.h)(0x609FDAB6)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-I (MODULE\OLED\oledfont.h)(0x609FDA55)
-F (.\PERIPHERAL\Sources\systick.c)(0x609FD945)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-F (.\PERIPHERAL\Sources\gw1ns4c_misc.c)(0x607D49E0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER -I .\MODULE\OLED-IC:\Users\10731\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gw1ns4c_misc.o --omf_browse .\objects\gw1ns4c_misc.crf --depend .\objects\gw1ns4c_misc.d)
-I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x607D49E0)
-I (.\SYSTEM\gw1ns4c.h)(0x607D49E0)
-I (.\CORE\core_cm3.h)(0x607D49D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (.\SYSTEM\system_gw1ns4c.h)(0x607D49E0)
-I (.\USER\gw1ns4c_conf.h)(0x609FD9B9)
-I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x607D49E0)
-I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x6098AFFC)
-I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x609F9EC6)
-I (.\PERIPHERAL\Includes\systick.h)(0x609FB363)
