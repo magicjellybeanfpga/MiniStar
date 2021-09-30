@@ -8,7 +8,7 @@ The host is a spdc1016 soc, with an instruction set of 6502, 23-bit parallel add
 
 The pin definition of the BROM board is as shown below:
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (1).png" width= "400">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (1).png" width= "400">
 
 There are three chips in parallel, each 4Mbitx8, with an address width of 16, and mapper is used to access different data.
 
@@ -26,29 +26,29 @@ The mc0 signal indicates whether the transmission is AH or AL in the address pha
 
 The cpu access, because of the phase difference between mc1 and the cpu clock, can be regarded as single-cycle, that is, in the same cpu clock cycle, the address is given and the data is read, and cannot be delayed until the next cycle (because the bus may output the address immediately).
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (2).png" width= "400">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (2).png" width= "400">
 
 
 The cpuclk, mc1/mc0/ad should ideally be read with the timing as above. The frequency is 3.6864M, because the qspi flash is used to store the firmware, the data and instruction consumption becomes a big bottleneck.
 
 So my optimization is that, once the MC0 drop is captured, I can start the spi operation, and wait until the lower 8 bits are sent by the 12th/4th clocks, when the AD period is located in the AL interval (green in the figure).
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (3).png" width= "400">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (3).png" width= "400">
 
 I verify the waveform in the simulator. MC initialization is AH state, and AD outputs FFFC, holding for 12ns after MC0 falling edge; MC0 rising is 10ns later than MC0 falling.
 
 The simulation waveform shows that the host clock is half a clock ahead of the clock seen by the device; at first, the device reads the data at the last falling edge of the dummy clock, corresponding to the 19/20 rising edge of clk_spi_free, but because of the delay, the device has to read on the rising edge of the 20/21 clock. The single edge also helps with timing optimization.
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (4).png" width= "400">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (4).png" width= "400">
 
 The modified simulation waveform is shown below:
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (5).png" width= "400">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (5).png" width= "400">
 
 It can be seen that AL is forwarded from adbus to spi only after MC1 drops. For bus 4 division, slow reads are also selected at the center of the Data interval to avoid possible level conflicts due to excessive slowness.
 
 Attachment: Development Board Pin Assignments:
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (6).png" width= "200">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (6).png" width= "200">
 
-<img src="/projects/Tutorials/Bus2qspi_Ministar Project/pic/bus pic (7).png" width= "200">
+<img src="/projects/University Projects/Complete//Bus2qspi_Ministar Project/pic/bus pic (7).png" width= "200">
