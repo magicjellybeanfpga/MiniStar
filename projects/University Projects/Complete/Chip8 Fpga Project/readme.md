@@ -6,15 +6,15 @@ By: Bingsu Liu
 
 MiniStar development board
 
-<img src="/projects/Chip8 Fpga Project/pic/CHIP8 pic (1).png" width= "200">
+<img src="/projects/University Projects/Complete/Chip8 Fpga Project/pic/CHIP8 pic (1).png" width= "200">
 
 0.96 inch OLED12864 LCD I2C driver ssd1315
 
-<img src="/projects/Chip8 Fpga Project/pic/CHIP8 pic (2).png" width= "400">
+<img src="/projects/University Projects/Complete/Chip8 Fpga Project/pic/CHIP8 pic (2).png" width= "400">
 
 4x4 matrix keyboard
 
-<img src="/projects/Chip8 Fpga Project/pic/CHIP8 pic (3).png" width= "400">
+<img src="/projects/University Projects/Complete/Chip8 Fpga Project/pic/CHIP8 pic (3).png" width= "400">
 
 ### System Design
 
@@ -70,7 +70,7 @@ CHIP8 has 35 opcodes, 2 bytes, and is encoded in Big-endian format as described 
 
 The diagram is as shown below.
 
-<img src="/projects/Chip8 Fpga Project/pic/CHIP8 pic (4).png" width= "400">
+<img src="/projects/University Projects/Complete/Chip8 Fpga Project/pic/CHIP8 pic (4).png" width= "400">
 
 * Javascript CHIP8 assembler and simulator environment
 
