@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="C:/SOFTWARE/Gowin/Gowin_V1.9.7.02Beta_GowinSynthesis-only/IDE/data/ipcores/GAO_LITE/GW_AO_0/gw_ao_mem_ctrl.v" type="verilog"/>
+        <File path="C:/SOFTWARE/Gowin/Gowin_V1.9.7.02Beta_GowinSynthesis-only/IDE/data/ipcores/GAO_LITE/GW_AO_0/gw_ao_top.v" type="verilog"/>
+        <File path="C:/SOFTWARE/Gowin/Gowin_V1.9.7.02Beta_GowinSynthesis-only/IDE/data/ipcores/GAO_LITE/GW_CON/gw_con_top.v" type="verilog"/>
+        <File path="C:/SOFTWARE/Gowin/Gowin_V1.9.7.02Beta_GowinSynthesis-only/IDE/data/ipcores/gw_jtag.v" type="verilog"/>
+        <File path="C:/Users/A/Desktop/TANG/gowin/projects/nano_viewer/impl/gao/gw_gao_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="C:/SOFTWARE/Gowin/Gowin_V1.9.7.02Beta_GowinSynthesis-only/IDE/data/ipcores/GAO_LITE"/>
+        <Option type="include_path" value="C:/Users/A/Desktop/TANG/gowin/projects/nano_viewer/impl/gao"/>
+        <Option type="output_file" value="C:/Users/A/Desktop/TANG/gowin/projects/nano_viewer/impl/gao/gao.v"/>
+    </OptionList>
+</Project>
