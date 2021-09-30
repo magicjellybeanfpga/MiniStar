@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\Andrew Dudaronek\Desktop\MiniStar-main\MiniStar-main\projects\Led Demo\led_run\fpga_led\src\gowin_empu\gowin_empu.v" type="verilog"/>
+        <File path="C:\Users\Andrew Dudaronek\Desktop\MiniStar-main\MiniStar-main\projects\Led Demo\led_run\fpga_led\src\gowin_osc\gowin_osc.v" type="verilog"/>
+        <File path="C:\Users\Andrew Dudaronek\Desktop\MiniStar-main\MiniStar-main\projects\Led Demo\led_run\fpga_led\src\top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Andrew Dudaronek\Desktop\MiniStar-main\MiniStar-main\projects\Led Demo\led_run\fpga_led\impl\gwsynthesis\fpga_led.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

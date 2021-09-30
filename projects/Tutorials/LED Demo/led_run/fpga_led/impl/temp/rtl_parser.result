@@ -1,0 +1,38 @@
+[
+ {
+  "InstFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/top.v",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/top.v",
+    "InstLine" : 11,
+    "InstName" : "U_Gowin_OSC",
+    "ModuleFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/gowin_osc/gowin_osc.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/top.v",
+    "InstLine" : 18,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/gowin_empu/gowin_empu.v",
+    "ModuleLine" : 1037,
+    "ModuleName" : "Gowin_EMPU_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/gowin_empu/gowin_empu.v",
+      "InstLine" : 1048,
+      "InstName" : "Gowin_EMPU_inst",
+      "ModuleFile" : "C:/Users/Andrew Dudaronek/Desktop/MiniStar-main/MiniStar-main/projects/Led Demo/led_run/fpga_led/src/gowin_empu/gowin_empu.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~Gowin_EMPU.Gowin_EMPU_Top"
+     }
+    ]
+   }
+  ]
+ }
+]
