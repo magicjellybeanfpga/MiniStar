@@ -14,11 +14,11 @@ Gowin's FPGA chip provides a complete set of tool chain, using Gowin_V1.9.6Beta 
 
 The hardware in this project mainly consists of MiniStar development board, 18b20 digital temperature sensor, MAX3490 conversion chip. The development board is equipped with power supply system and FPGA chip, connected to the 18B20 sensor and MAX3490 TTL to RS422 chip through the IO, the whole as shown in the figure below.
 
-<img src="/projects/Multi-acquisition Circuit Project/pic/Multi pic (1).png" width= "400">
+<img src="/projects/University Projects/Ongoing/Multi-acquisition Circuit Project/pic/Multi pic (1).png" width= "400">
 
 ### 4. Software Design
 
 In this project, the ARM processor is not applied for the time being, so it is
 mainly for the design and organization of FPGA logic, the main module to be realized is the communication logic of UART and I2C; firstly, the FPGA reads the temperature value at the 18B20 sensor by the IIC logic module, which is stored in the instantiated RAM, then the UART logic module reads the temperature data from the RAM and sends it to the host, which is displayed by the serial assistant. The logic is written in Verilog HDL language, and the architecture is shown in the following.
 
-<img src="/projects/Multi-acquisition Circuit Project/pic/Multi pic (2).png" width= "400">
+<img src="/projects/University Projects/Ongoing/Multi-acquisition Circuit Project/pic/Multi pic (2).png" width= "400">
