@@ -6,7 +6,7 @@ You will learn the basic principle and programming of watchdog by this demo. As 
 
 <img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/Board pic (1).png" width= "400">
 
-[Watchdog Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Watchdog%20Demo/wdog_run)
+[Watchdog Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/Watchdog%20Demo/wdog_run)
 
 ## Dip Switch Demo
 
