@@ -1,0 +1,136 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\fifo_top\fifo_top.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_pllvr\gowin_pllvr.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\hyperram_memory_interface\hyperram_memory_interface.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\crc32_d4.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\ip_receive.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\ip_send.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\pulse_sync_pro.v'
+Analyzing Verilog file 'F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\udp.v'
+WARN  (EX3073) : Port 'master_pclk' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX2565) : Port 'master_prdata1' is not connected on this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX2565) : Port 'master_pready1' is not connected on this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX2565) : Port 'master_pslverr1' is not connected on this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX2565) : Port 'master_prdata2' is not connected on this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX2565) : Port 'master_pready2' is not connected on this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX2565) : Port 'master_pslverr2' is not connected on this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+Compiling module 'Gowin_EMPU_Template'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":4)
+Compiling module 'Gowin_PLLVR'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_pllvr\gowin_pllvr.v":9)
+Compiling module 'udp(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000110010101111011,DES_MAC=48'b000000001110000000011010011010000000000010110011,DES_IP=32'b11000000101010000110010110000100)'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\udp.v":22)
+Compiling module 'ip_receive(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000110010101111011)'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\ip_receive.v":22)
+Compiling module 'ip_send(BOARD_MAC=48'b000000000001000100100010001100110100010001010101,BOARD_IP=32'b11000000101010000110010101111011,DES_MAC=48'b000000001110000000011010011010000000000010110011,DES_IP=32'b11000000101010000110010110000100)'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\ip_send.v":22)
+Compiling module 'crc32_d4'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\crc32_d4.v":22)
+Compiling module 'pulse_sync_pro'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\rmii\pulse_sync_pro.v":23)
+Compiling module 'fifo_top'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\fifo_top\fifo_top.v":755)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\fifo_top\fifo_top.v":0)
+Compiling module 'Gowin_AHB_TOARM_Top'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v":5)
+WARN  (EX1998) : Net 'reg_rd_en' does not have a driver("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v":90)
+WARN  (EX1998) : Net 'reg_data_len[31]' does not have a driver("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v":91)
+WARN  (EX1998) : Net 'reg_data_out0[31]' does not have a driver("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v":94)
+WARN  (EX1998) : Net 'wire_init' does not have a driver("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v":121)
+WARN  (EX1998) : Net 'rd_valid' does not have a driver("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\ahb_toarm.v":144)
+Compiling module 'Gowin_EMPU_Top'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":1322)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+Compiling module '**'("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu\gowin_empu.v":0)
+WARN  (EX1947) : Input port 'master_prdata1[31]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[30]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[29]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[28]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[27]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[26]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[25]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[24]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[23]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[22]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[21]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[20]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[19]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[18]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[17]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[16]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[15]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[14]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[13]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[12]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[11]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[10]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[9]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[8]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[7]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[6]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[5]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[4]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[3]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[2]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[1]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata1[0]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_pready1' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_pslverr1' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[31]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[30]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[29]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[28]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[27]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[26]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[25]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[24]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[23]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[22]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[21]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[20]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[19]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[18]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[17]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[16]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[15]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[14]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[13]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[12]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[11]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[10]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[9]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[8]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[7]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[6]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[5]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[4]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[3]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[2]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[1]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_prdata2[0]' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_pready2' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'master_pslverr2' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+WARN  (EX1947) : Input port 'user_int_0' remains unconnected for this instance("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":270)
+NOTE  (EX0101) : Current top module is "Gowin_EMPU_Template"
+WARN  (EX0211) : The output port "led" of module "Gowin_EMPU_Template" has no driver("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":34)
+[5%] Running netlist conversion ...
+WARN  (CV0003) : Output "led" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\src\gowin_empu_template.v":34)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\impl\gwsynthesis\gowin_empu_hyperram.vg" completed
+[100%] Generate report file "F:\0_code\Gowin\ministar_eth_audio\FPGA_Design\impl\gwsynthesis\gowin_empu_hyperram_syn.rpt.html" completed
+GowinSynthesis finish

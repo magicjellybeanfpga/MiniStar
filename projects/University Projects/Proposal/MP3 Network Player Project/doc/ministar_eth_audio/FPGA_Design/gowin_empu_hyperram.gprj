@@ -1,0 +1,22 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC7/I6">gw1nsr4c-009</Device>
+    <FileList>
+        <File path="src/ahb_toarm.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/fifo_top.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_empu/gowin_empu.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_empu_template.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pllvr/gowin_pllvr.v" type="file.verilog" enable="1"/>
+        <File path="src/hyperram_memory_interface/hyperram_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/rmii/crc32_d4.v" type="file.verilog" enable="1"/>
+        <File path="src/rmii/ip_receive.v" type="file.verilog" enable="1"/>
+        <File path="src/rmii/ip_send.v" type="file.verilog" enable="1"/>
+        <File path="src/rmii/pulse_sync_pro.v" type="file.verilog" enable="1"/>
+        <File path="src/rmii/udp.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_empu.cst" type="file.cst" enable="1"/>
+        <File path="src/gowin_empu_hyperram.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
