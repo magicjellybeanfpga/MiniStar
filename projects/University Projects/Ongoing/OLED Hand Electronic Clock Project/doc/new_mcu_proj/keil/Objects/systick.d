@@ -1,0 +1,13 @@
+.\objects\systick.o: PERIPHERAL\Sources\systick.c
+.\objects\systick.o: .\PERIPHERAL\Includes\systick.h
+.\objects\systick.o: .\SYSTEM\gw1ns4c.h
+.\objects\systick.o: .\CORE\core_cm3.h
+.\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: .\SYSTEM\system_gw1ns4c.h
+.\objects\systick.o: .\USER\gw1ns4c_conf.h
+.\objects\systick.o: .\PERIPHERAL\Includes\gw1ns4c_uart.h
+.\objects\systick.o: .\SYSTEM\gw1ns4c.h
+.\objects\systick.o: .\PERIPHERAL\Includes\gw1ns4c_i2c.h
+.\objects\systick.o: .\PERIPHERAL\Includes\gw1ns4c_misc.h
+.\objects\systick.o: .\PERIPHERAL\Includes\gw1ns4c_rtc.h
+.\objects\systick.o: .\PERIPHERAL\Includes\systick.h
