@@ -2,7 +2,7 @@
 
 You will learn the basic principle and programming of watchdog by this demo. As shown in the figure below, kick the dog by KEY1. When KEY1 is pressed, LED8 blinks, indicating the kicking dog action; when kicking dog is stopped, it will generate a watchdog interrupt, and the LED1 is always on after the system restart.
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/Board pic (1).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/Board pic (1).png" width= "400">
 
 This demo includes four parts:
 
@@ -20,7 +20,7 @@ According to 3.11.9 Watchdog section of DS861, GW1NSR series of FPGA Products Da
 
 The following depicts the watchdog operation:
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/Figure 3-41 (2).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/Figure 3-41 (2).png" width= "400">
 
 Three types of system resets are defined in gw1ns4c_syscon.h.
 
@@ -34,7 +34,7 @@ Three types of system resets are defined in gw1ns4c_syscon.h.
 
 The watchdog register is as shown below:
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/Table 3-20 (3).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/Table 3-20 (3).png" width= "400">
 
 * WDOGLOCK[0]:
 
@@ -47,7 +47,7 @@ The watchdog register is as shown below:
 The register structure is defined in gw1ns4c_wdog.h:
 
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/typedef struct (4).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/typedef struct (4).png" width= "400">
 
 ## Hardware Design
 
@@ -61,7 +61,7 @@ The software design includes two parts: FPGA internal hardware logic and Cotex-M
 
 You do not need to modify the HDL, only need to set GPIO[0], GPIO[1], and GPIO[15] in I/O Constraints. Then click Place & Route to generate the logic file fpga_led.fs.
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/contraints pic (5).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/contraints pic (5).png" width= "400">
 
 ### Cotex-M3 Software Control Design
 
@@ -76,12 +76,12 @@ GPIO0->OUTENSET = 0x00ff; //IO[15:8]: input IO[7:0]: output
 
 3. Initialize watchdog
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/contraints pic (5).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/contraints pic (5).png" width= "400">
 
 4. The main design is as shown below: when reset watchdog, light up LED1; when kick watchdog, light up LED8.
 
 
-<img src="/projects/Watchdog Demo/wdog_run/pic/watchdog_init (6).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/watchdog_init (6).png" width= "400">
 
 5. After bulid, the download file led.bin is generated.
 
