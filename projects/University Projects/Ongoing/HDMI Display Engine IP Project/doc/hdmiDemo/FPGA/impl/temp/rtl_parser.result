@@ -1,0 +1,156 @@
+[
+ {
+  "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/top.v",
+    "InstLine" : 104,
+    "InstName" : "mcu",
+    "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/gowin_empu/gowin_empu.v",
+    "ModuleLine" : 993,
+    "ModuleName" : "Gowin_EMPU_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/gowin_empu/gowin_empu.v",
+      "InstLine" : 1046,
+      "InstName" : "Gowin_EMPU_inst",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/gowin_empu/gowin_empu.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~Gowin_EMPU.Gowin_EMPU_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/top.v",
+    "InstLine" : 139,
+    "InstName" : "disp_engine",
+    "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "DispEngine",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 192,
+      "InstName" : "pll_locked_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 779,
+      "ModuleName" : "BufferCC"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 198,
+      "InstName" : "bufferCC_9",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 756,
+      "ModuleName" : "BufferCC_1"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 204,
+      "InstName" : "vgaArea_asyncArea_vgaCtrl",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 633,
+      "ModuleName" : "VgaCtrl"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 232,
+      "InstName" : "vgaArea_timings_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 552,
+      "ModuleName" : "BufferCC_2"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 256,
+      "InstName" : "vgaArea_color_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 534,
+      "ModuleName" : "BufferCC_3"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 262,
+      "InstName" : "vgaArea_softReset_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 511,
+      "ModuleName" : "BufferCC_4"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 268,
+      "InstName" : "vgaArea_asyncArea_toggledOnFrameStart_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 779,
+      "ModuleName" : "BufferCC"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 274,
+      "InstName" : "vga_colorEn_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 779,
+      "ModuleName" : "BufferCC"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 280,
+      "InstName" : "vga_hSync_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 779,
+      "ModuleName" : "BufferCC"
+     },
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "InstLine" : 286,
+      "InstName" : "vga_vSync_buffercc",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/SpinalHDL/DispEngine.v",
+      "ModuleLine" : 779,
+      "ModuleName" : "BufferCC"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/top.v",
+    "InstLine" : 172,
+    "InstName" : "hpram_controller",
+    "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3146,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3189,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/top.v",
+    "InstLine" : 197,
+    "InstName" : "hdmi_tx",
+    "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1048,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/MiniStar/HdmiDemo/FPGA/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1079,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/MiniStar/HdmiDemo/FPGA/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]

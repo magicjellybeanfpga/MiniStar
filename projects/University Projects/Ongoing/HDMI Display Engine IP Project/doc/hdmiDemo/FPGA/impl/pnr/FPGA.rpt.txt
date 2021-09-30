@@ -1,0 +1,197 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved.
+
+
+1. PnR Messages
+
+  <Report Title>: Gowin PnR Report
+  <Design File>: D:\MiniStar\HdmiDemo\FPGA\impl\gwsynthesis\FPGA.vg
+  <Physical Constraints File>: D:\MiniStar\HdmiDemo\FPGA\src\FPGA.cst
+  <Timing Constraints File>: D:\MiniStar\HdmiDemo\FPGA\src\FPGA.sdc
+  <GOWIN Version>: V1.9.7.03Beta
+  <Part Number>: GW1NSR-LV4CQN48PC7/I6
+  <Device>: GW1NSR-4C
+  <Created Time>:Mon May 17 00:05:06 2021
+
+
+2. PnR Details
+
+  Running placement:
+    Placement Phase 0: CPU time = 0h 0m 0.376s, Elapsed time = 0h 0m 0.376s
+    Placement Phase 1: CPU time = 0h 0m 0.112s, Elapsed time = 0h 0m 0.112s
+    Placement Phase 2: CPU time = 0h 0m 0.379s, Elapsed time = 0h 0m 0.378s
+    Placement Phase 3: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
+    Total Placement: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
+ Running routing:
+    Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.001s
+    Routing Phase 1: CPU time = 0h 0m 0.162s, Elapsed time = 0h 0m 0.162s
+    Routing Phase 2: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
+    Total Routing: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
+ Generate output files:
+    CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
+
+ Total Time and Memory Usage: CPU time = 0h 0m 5s, Elapsed time = 0h 0m 5s, Peak memory usage = 187MB
+
+
+3. Resource Usage Summary
+
+  ----------------------------------------------------------
+  Resources                   | Usage
+  ----------------------------------------------------------
+  Logic                       | 1262/4608  27%
+    --LUT,ALU,ROM16           | 1262(1067 LUT, 195 ALU, 0 ROM16)
+    --SSRAM(RAM16)            | 0
+  Register                    | 1016/3597  28%
+    --Logic Register as Latch | 1/3456  1%
+    --Logic Register as FF    | 1015/3456  29%
+    --I/O Register as Latch   | 0/141  0%
+    --I/O Register as FF      | 0/141  0%
+  CLS                         | 1121/2304  48%
+  I/O Port                    | 21
+  I/O Buf                     | 17
+    --Input Buf               | 2
+    --Output Buf              | 14
+    --Inout Buf               | 1
+  IOLOGIC                     | 53%
+    --IDES4                   | 8
+    --OSER4                   | 12
+    --OSER10                  | 4
+    --IODELAY                 | 10
+  BSRAM                       | 90%
+    --SP                      | 8
+    --SDPX9B                  | 1
+  DSP                         | 0%
+  PLL                         | 2/2  100%
+  DCS                         | 0/4  0%
+  DQCE                        | 0/12  0%
+  OSC                         | 0/1  0%
+  CLKDIV                      | 2/6  33%
+  DLLDLY                      | 0/6  0%
+  DHCEN                       | 1/12  8%
+  EMCU                        | 1/1  100%
+  ==========================================================
+
+
+
+4. I/O Bank Usage Summary
+
+  -----------------------
+  I/O Bank  | Usage       
+  -----------------------
+  bank 0   | 0/9(0%)     
+  bank 1   | 3/10(30%)   
+  bank 2   | 4/9(44%)    
+  bank 3   | 10/24(41%)  
+  =======================
+
+
+5. Global Clock Usage Summary
+
+  -------------------------------
+  Global Clock  | Usage       
+  -------------------------------
+  PRIMARY       | 5/8(62%)
+  SECONDARY     | 3/8(37%)
+  GCLK_PIN      | 4/5(80%)
+  PLL           | 2/2(100%)
+  CLKDIV        | 2/6(33%)
+  DLLDLY        | 0/6(0%)
+  ===============================
+
+
+6. Global Clock Signals
+
+  -------------------------------------------
+  Signal         | Global Clock   | Location
+  -------------------------------------------
+  rst_n_d        | PRIMARY        |  LEFT
+  clk_27m_d      | PRIMARY        |  LEFT RIGHT
+  clk_81m        | PRIMARY        |  LEFT RIGHT
+  clk_pixel_d    | PRIMARY        |  LEFT RIGHT
+  clk_out        | PRIMARY        |  LEFT RIGHT
+  sync_rst_n     | SECONDARY      |  -
+  vga_rst        | SECONDARY      |  -
+  ddr_rsti       | SECONDARY      |  -
+  clk_162m       | HCLK           | TOP[1] BOTTOM[1]
+  clk_hdmi       | HCLK           | RIGHT[1]
+  ===========================================
+
+
+7. Pinout by Port Name
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Port Name        | Diff Pair | Loc./Bank | Constraint | Dir.  | Site     | IO Type    | Drive | Pull Mode | PCI Clamp | Hysteresis | Open Drain | Slew Rate | Vref       | Single Resistor | Diff Resistor | BankVccio 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+rst_n            |           | 23/3      | Y          | in    | IOB22[B] | LVCMOS18   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.8       
+clk_27m          |           | 22/3      | Y          | in    | IOB22[A] | LVCMOS18   | NA    | NONE      | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.8       
+clk_pixel        |           | 19/3      | Y          | out   | IOB13[B] | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+pll_disp_locked  |           | 13/3      | Y          | out   | IOB4[A]  | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+disp_error       |           | 14/3      | Y          | out   | IOB4[B]  | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+vga_vSync        |           | 41/1      | Y          | out   | IOT20[A] | LVCMOS33   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3       
+vga_hSync        |           | 40/1      | Y          | out   | IOT26[B] | LVCMOS33   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3       
+vga_colorEn      |           | 39/1      | Y          | out   | IOT26[A] | LVCMOS33   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3       
+tmds_clk_p       | tmds_clk_n | 28,27/2   | Y          | out   | IOR17    | LVDS25     | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5       
+tmds_data_p[0]   | tmds_data_n[0] | 30,29/2   | Y          | out   | IOR15    | LVDS25     | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5       
+tmds_data_p[1]   | tmds_data_n[1] | 32,31/2   | Y          | out   | IOR11    | LVDS25     | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5       
+tmds_data_p[2]   | tmds_data_n[2] | 35,34/2   | Y          | out   | IOR2     | LVDS25     | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5       
+O_hpram_reset_n  |           | 21/3      | N          | out   | IOB16[B] | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+O_hpram_ck       |           | 16/3      | N          | out   | IOB6[A]  | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+O_hpram_ck_n     |           | 15/3      | N          | out   | IOB5[A]  | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+O_hpram_cs_n     |           | 20/3      | N          | out   | IOB16[A] | LVCMOS18   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+IO_hpram_rwds    |           | 18/3      | N          | io    | IOB13[A] | LVCMOS18   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 1.8       
+========================================================================================================================================================================================================================
+
+
+
+
+8. All Package Pins
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Loc./Bank| Signal           | Dir.  | Site     | IO Type  | Drive | Pull Mode | PCI Clamp | Hysteresis | Open Drain | Slew Rate | Vref       | Single Resistor | Diff Resistor | Bank Vccio
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3/0      | -                | in    | IOT2[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+4/0      | -                | out   | IOT2[B]  | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | -    
+6/0      | -                | in    | IOT3[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+7/0      | -                | in    | IOT3[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+8/0      | -                | in    | IOT4[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+9/0      | -                | in    | IOT5[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+10/0     | -                | in    | IOT7[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+1/0      | -                | in    | IOT10[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+2/0      | -                | in    | IOT10[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | -    
+48/1     | -                | in    | IOT11[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+47/1     | -                | in    | IOT11[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+45/1     | -                | in    | IOT13[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+46/1     | -                | in    | IOT13[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+43/1     | -                | in    | IOT17[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+44/1     | -                | in    | IOT17[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+41/1     | vga_vSync        | out   | IOT20[A] | LVCMOS33 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3  
+42/1     | -                | in    | IOT20[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+39/1     | vga_colorEn      | out   | IOT26[A] | LVCMOS33 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3  
+40/1     | vga_hSync        | out   | IOT26[B] | LVCMOS33 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13/3     | pll_disp_locked  | out   | IOB4[A]  | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+14/3     | disp_error       | out   | IOB4[B]  | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+15/3     | O_hpram_ck_n     | out   | IOB5[A]  | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+16/3     | O_hpram_ck       | out   | IOB6[A]  | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+17/3     | -                | in    | IOB6[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.8  
+18/3     | IO_hpram_rwds    | io    | IOB13[A] | LVCMOS18 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+19/3     | clk_pixel        | out   | IOB13[B] | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+20/3     | O_hpram_cs_n     | out   | IOB16[A] | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+21/3     | O_hpram_reset_n  | out   | IOB16[B] | LVCMOS18 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 1.8  
+22/3     | clk_27m          | in    | IOB22[A] | LVCMOS18 | NA    | NONE      | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.8  
+23/3     | rst_n            | in    | IOB22[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.8  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35/2     | tmds_data_p[2]   | out   | IOR2[A]  | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+34/2     | tmds_data_n[2]   | out   | IOR2[B]  | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+33/2     | -                | in    | IOR9[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+32/2     | tmds_data_p[1]   | out   | IOR11[A] | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+31/2     | tmds_data_n[1]   | out   | IOR11[B] | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+30/2     | tmds_data_p[0]   | out   | IOR15[A] | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+29/2     | tmds_data_n[0]   | out   | IOR15[B] | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+28/2     | tmds_clk_p       | out   | IOR17[A] | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+27/2     | tmds_clk_n       | out   | IOR17[B] | LVDS25   | 3.5   | NONE      | NA        | NA         | NA         | NA        | NA         | NA              | NA            | 2.5  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=============================================================================================================================================================================================
+
+

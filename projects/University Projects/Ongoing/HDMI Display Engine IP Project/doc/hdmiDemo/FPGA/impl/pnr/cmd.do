@@ -1,0 +1,11 @@
+-d D:\MiniStar\HdmiDemo\FPGA\impl\gwsynthesis\FPGA.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst D:\MiniStar\HdmiDemo\FPGA\src\FPGA.cst
+-cfg D:\MiniStar\HdmiDemo\FPGA\impl\pnr\device.cfg
+-sdc D:\MiniStar\HdmiDemo\FPGA\src\FPGA.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
