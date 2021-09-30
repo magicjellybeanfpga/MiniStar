@@ -1,0 +1,29 @@
+Reading netlist file: "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\gwsynthesis\my_gowin_spi_lcd.vg"
+Parsing netlist file "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\gwsynthesis\my_gowin_spi_lcd.vg" completed
+Processing netlist completed
+Reading constraint file: "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\src\my_gowin_spi_lcd.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\pnr\my_gowin_spi_lcd.power.html" completed
+Generate file "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\pnr\my_gowin_spi_lcd.pin.html" completed
+Generate file "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\pnr\my_gowin_spi_lcd.rpt.html" completed
+Generate file "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\pnr\my_gowin_spi_lcd.rpt.txt" completed
+Generate file "G:\Gowin\Gowin_V1.9.7.06Beta_GowinSynthesis-only\workspace\my_gowin_spi_lcd\impl\pnr\my_gowin_spi_lcd.tr.html" completed
+Tue Jun 22 15:16:29 2021
+

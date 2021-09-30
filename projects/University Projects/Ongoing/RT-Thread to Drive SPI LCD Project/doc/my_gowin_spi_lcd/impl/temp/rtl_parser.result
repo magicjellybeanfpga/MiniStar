@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "G:/Gowin/Gowin_V1.9.7.06Beta_GowinSynthesis-only/workspace/my_gowin_spi_lcd/src/gowin_empu/gowin_empu.v",
+  "InstLine" : 1170,
+  "InstName" : "Gowin_EMPU_Top",
+  "ModuleFile" : "G:/Gowin/Gowin_V1.9.7.06Beta_GowinSynthesis-only/workspace/my_gowin_spi_lcd/src/gowin_empu/gowin_empu.v",
+  "ModuleLine" : 1170,
+  "ModuleName" : "Gowin_EMPU_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "G:/Gowin/Gowin_V1.9.7.06Beta_GowinSynthesis-only/workspace/my_gowin_spi_lcd/src/gowin_empu/gowin_empu.v",
+    "InstLine" : 1193,
+    "InstName" : "Gowin_EMPU_inst",
+    "ModuleFile" : "G:/Gowin/Gowin_V1.9.7.06Beta_GowinSynthesis-only/workspace/my_gowin_spi_lcd/src/gowin_empu/gowin_empu.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~Gowin_EMPU.Gowin_EMPU_Top"
+   }
+  ]
+ }
+]
