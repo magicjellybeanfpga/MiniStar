@@ -1,0 +1,30 @@
+********* Archive Project on 2021-06-27 16:13:15 *********
+GOWIN Version: 1.9.6Beta
+Archive file: F:\gowin\Ministar_test\Ministar_test\water_led.gar
+Archive files successfully
+
+
+********* Archived files *********
+F:\gowin\Ministar_test\Ministar_test\impl\project_process_config.json
+F:\gowin\Ministar_test\Ministar_test\src\UART_Tx_module.v
+F:\gowin\Ministar_test\Ministar_test\src\divider.v
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\fifo_top.ipc
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\fifo_top.v
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\fifo_top.vo
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\FIFO.prj
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\fifo_define.v
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\fifo_parameter.v
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\fifo_top.vg
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\fifo_top_syn.rpt.html
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\fifo_top_syn_resource.html
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\fifo_top_syn_rsc.xml
+F:\gowin\Ministar_test\Ministar_test\src\fifo_top\temp\FIFO\project.ini
+F:\gowin\Ministar_test\Ministar_test\src\txd.v
+F:\gowin\Ministar_test\Ministar_test\src\uart_ctrl.v
+F:\gowin\Ministar_test\Ministar_test\src\water_led.cst
+F:\gowin\Ministar_test\Ministar_test\src\water_led.v
+F:\gowin\Ministar_test\Ministar_test\water_led.gprj
+F:\gowin\Ministar_test\Ministar_test\water_led.gprj.user
+
+********* Total 20 files to archive *********
+
