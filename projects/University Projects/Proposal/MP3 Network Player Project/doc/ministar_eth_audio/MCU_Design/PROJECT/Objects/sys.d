@@ -1,0 +1,17 @@
+.\objects\sys.o: ..\Hardware\sys\sys.c
+.\objects\sys.o: ..\Hardware\sys\sys.h
+.\objects\sys.o: ..\SYSTEM\gw1ns4c.h
+.\objects\sys.o: ..\CORE\core_cm3.h
+.\objects\sys.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sys.o: ..\SYSTEM\system_gw1ns4c.h
+.\objects\sys.o: ..\USER\gw1ns4c_conf.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_gpio.h
+.\objects\sys.o: ..\SYSTEM\gw1ns4c.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_wdog.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_uart.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_timer.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_spi.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_i2c.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_misc.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_syscon.h
+.\objects\sys.o: ..\PERIPHERAL\Includes\gw1ns4c_rtc.h
