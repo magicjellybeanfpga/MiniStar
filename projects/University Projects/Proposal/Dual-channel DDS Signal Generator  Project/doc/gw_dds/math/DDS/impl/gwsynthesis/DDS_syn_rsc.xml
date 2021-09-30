@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_dds">
+    <SubModule name="dds_CH1" Register="54" Alu="40" Lut="16">
+        <SubModule name="DDS_ROM" Bsram="2"/>
+    </SubModule>
+    <SubModule name="dds_CH2" Register="54" Alu="40" Lut="14">
+        <SubModule name="DDS_ROM" Bsram="2"/>
+    </SubModule>
+    <SubModule name="key_control_inst" Register="134" Alu="184" Lut="9">
+        <SubModule name="tb" Register="11" Lut="36"/>
+    </SubModule>
+</Module>
