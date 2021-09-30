@@ -1,0 +1,24 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/root/Projects/Demo/MiniStar/pc1k_qspi3/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/root/Projects/Demo/MiniStar/pc1k_qspi3/src/memhub.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/root/Projects/Demo/MiniStar/pc1k_qspi3/src/top_adbus.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/root/Projects/Demo/MiniStar/pc1k_qspi3/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
