@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top">
-    <SubModule name="U_Gowin_OSC"/>
-    <SubModule name="your_instance_name" Register="116" Lut="158" Bsram="8"/>
-</Module>

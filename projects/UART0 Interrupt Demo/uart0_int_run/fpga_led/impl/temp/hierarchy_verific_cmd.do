@@ -1,5 +1,0 @@
--f D:/gaoyunfpgademo/m3demo1/uart0_int_run/fpga_led/src/gowin_empu/gowin_empu.v
--f D:/gaoyunfpgademo/m3demo1/uart0_int_run/fpga_led/src/gowin_osc/gowin_osc.v
--f D:/gaoyunfpgademo/m3demo1/uart0_int_run/fpga_led/src/top.v
--l 2
--o D:/gaoyunfpgademo/m3demo1/uart0_int_run/fpga_led/impl/temp/hierarchy_verific_parser.result
