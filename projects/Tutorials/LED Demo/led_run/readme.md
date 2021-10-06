@@ -1,10 +1,10 @@
 ### LED Demo
 
+[Video Tutorial of LED Demo](https://www.youtube.com/watch?v=DN2ZqyKs2DE)
+
 You will learn how to use GPIO as the output by this demo. You can write code to control the eight LEDs LED1 (D1) ~ LED8 (D8) on the board to blink one by one.
 
 <img src="/projects/Tutorials/LED Demo/led_run/pic/board pic (1).png" width= "400">
-
-projects/Tutorials/LED Demo/led_run/pic/board pic (1).png
 
 
 This demo introduction includes four parts:
