@@ -22,7 +22,7 @@ You can use four dip switches on the extension board to control four 7-segment d
 
 You will learn how to use GPIO as the output by this demo. You can write code to control the eight LEDs LED1 (D1) ~ LED8 (D8) on the board to blink one by one.
 
-<img src="/projects/Tutorials/Led Demo/led_run/pic/board pic (1).png" width= "400">
+<img src="/projects/Tutorials/LED Demo/led_run/pic/board pic (1).png" width= "400">
 
 [LED Demo Project](https://github.com/magicjellybeanfpga/MiniStar/tree/main/projects/Tutorials/LED%20Demo/led_run)
 
