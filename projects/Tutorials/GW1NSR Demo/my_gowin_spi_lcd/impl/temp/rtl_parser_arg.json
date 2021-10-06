@@ -1,0 +1,16 @@
+{
+ "Files" : [
+  {
+   "Path" : "G:/Gowin/Gowin_V1.9.7.06Beta_GowinSynthesis-only/workspace/my_gowin_spi_lcd/src/gowin_empu/gowin_empu.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "G:/Gowin/Gowin_V1.9.7.06Beta_GowinSynthesis-only/workspace/my_gowin_spi_lcd/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
