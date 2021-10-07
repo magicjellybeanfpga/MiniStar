@@ -32,7 +32,7 @@ Figure 4 FPGA Pins
 
 In the Figure 2, one end of the KEY is connected to the power supply via the current-limiting resistor, and the other end is connected to the pins in Figure 3 (low level when the key pressed; high level when the key released). Use DuPont wire to connect KEY1~KEY4 signals to FPGA pins such as 20~26 in Figure 4 (pins 1/2/8/9/47/48 have special purpose and are not recommended). The connection of KEY and FPGA is shown in Figure 5.
 
-Pins Used for the video demo:
+Pins used for the video demo:
 
 LED1 = pin35
 
