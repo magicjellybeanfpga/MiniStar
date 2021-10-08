@@ -76,12 +76,14 @@ GPIO0->OUTENSET = 0x00ff; //IO[15:8]: input IO[7:0]: output
 
 3. Initialize watchdog
 
-<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/contraints pic (5).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/watchdog_init (6).png" width= "400">
 
 4. The main design is as shown below: when reset watchdog, light up LED1; when kick watchdog, light up LED8.
 
 
-<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/watchdog_init (6).png" width= "400">
+<img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/int main (7).png" width= "400">
+
+
 
 5. After bulid, the download file led.bin is generated.
 
