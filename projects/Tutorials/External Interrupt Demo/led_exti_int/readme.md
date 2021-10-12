@@ -1,5 +1,7 @@
 # External Interrupt Demo
 
+[Video Tutorial of External Interrupt Demo](https://www.youtube.com/watch?v=Rk12aeBJ1_0&t=3s)
+
 You will learn how to use GPIO as external interrupt and output, and how to program the KEY1 as an external interrupt to control the LED on and off by this demo. As in Figure 1, the KEY1 on the extension board controls one LED on and off.
 
 <img src="/projects/Tutorials/External Interrupt Demo/led_exti_int/pic/board 1 (1).png" width= "400">
