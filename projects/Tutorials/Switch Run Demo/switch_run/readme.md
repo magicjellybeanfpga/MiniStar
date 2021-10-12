@@ -1,5 +1,7 @@
 # Dip Switch Demo
 
+[Video Tutorial of LED Demo](https://www.youtube.com/watch?v=H3cF838PDow&t=12s)
+
 You will learn how to use GPIO as the input to identify the status of dip switches to control the digital tube to display the corresponding numbers by this demo.
 
 As shown in Figure 1, you can use four dip switches on the extension board to control four 7-segment digital tubes to achieve the cyclic display of the numbers 1 to 4.
