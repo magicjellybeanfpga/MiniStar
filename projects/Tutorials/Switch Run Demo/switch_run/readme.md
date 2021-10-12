@@ -1,6 +1,6 @@
 # Dip Switch Demo
 
-[Video Tutorial of LED Demo](https://www.youtube.com/watch?v=H3cF838PDow&t=12s)
+[Video Tutorial of Dip Switch Demo](https://www.youtube.com/watch?v=H3cF838PDow&t=12s)
 
 You will learn how to use GPIO as the input to identify the status of dip switches to control the digital tube to display the corresponding numbers by this demo.
 
