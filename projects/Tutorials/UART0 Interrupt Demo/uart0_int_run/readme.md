@@ -1,5 +1,7 @@
 # UART Interrupt Demo
 
+[Video Tutorial of UART Interrupt Demo](https://www.youtube.com/watch?v=yuJYwQWGNmI)
+
 You will learn UART and its interrupt programming by this demo. In order not to add new peripherals, use UART TX RX to control the times of LED on/off. As shown in Figure 1, short-circuit UART TX RX pins, and control the times of LED1 on/off according to the RX data.
 
 <img src="/projects/Tutorials/UART0 Interrupt Demo/uart0_int_run/images/UART board pic (1).png" width= "400">
