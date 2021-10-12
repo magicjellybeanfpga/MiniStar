@@ -1,5 +1,7 @@
 # Digital Tube Demo
 
+[Video Tutorial of Digital Tube Demo](https://www.youtube.com/watch?v=1Pe3hAWsTV8&t=16s)
+
 You will learn how to use GPIO as the output to control the digital tube to display numbers by this demo. As shown in Figure 1, the four 7-segment digital tubes on the extension board are used to achieve the cyclic display of numbers 0 to 9.
 
 
