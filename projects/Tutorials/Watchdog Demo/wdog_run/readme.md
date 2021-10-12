@@ -1,5 +1,7 @@
 # Watchdog Demo
 
+[Video Tutorial of Watchdog Demo](https://www.youtube.com/watch?v=NeJP00vhzqE)
+
 You will learn the basic principle and programming of watchdog by this demo. As shown in the figure below, kick the dog by KEY1. When KEY1 is pressed, LED8 blinks, indicating the kicking dog action; when kicking dog is stopped, it will generate a watchdog interrupt, and the LED1 is always on after the system restart.
 
 <img src="/projects/Tutorials/Watchdog Demo/wdog_run/pic/Board pic (1).png" width= "400">
