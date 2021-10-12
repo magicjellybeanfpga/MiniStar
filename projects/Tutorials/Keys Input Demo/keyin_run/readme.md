@@ -1,5 +1,6 @@
 # Keys Input Demo
 
+[Video Tutorial of Keys Input Demo](https://www.youtube.com/watch?v=R-kdmNaCUXo&t=4s)
 
 You will learn how to use GPIO as the input by this demo. As shown in Figure 1, you can use the four keys KEY1~KEY4 on the extension board to control four LEDs on/off.
 
