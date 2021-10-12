@@ -42,7 +42,9 @@ Link: https://www.GOWINsemi.com/en/support/license/
 
 See this article for reference:
 
-Link:https://blog.csdn.net/csdnyueguoyu/article/details/99577971?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162312085716780269896555%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=162312085716780269896555&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-99577971.first_rank_v2_pc_rank_v29&amp;utm_term=ft2232d&amp;spm=1018.2226.3001.4187
+Link:
+
+https://blog.csdn.net/csdnyueguoyu/article/details/99577971?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162312085716780269896555%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=162312085716780269896555&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-99577971.first_rank_v2_pc_rank_v29&amp;utm_term=ft2232d&amp;spm=1018.2226.3001.4187
 
 ### 3.2	 Create a New Project and Verilog File
 
@@ -174,19 +176,33 @@ The code migration is quite easy.
 
  void LCD_WR_REG(uint8_t data)
 {
-   LCD_CS_CLR;     
-         LCD_RS_CLR;          
+
+   LCD_CS_CLR; 
+    
+         LCD_RS_CLR;       
+   
    //HAL_SPI_Transmit(&hspi1,&data,1,100);
+
         SPI_WriteData(data);
+
    LCD_CS_SET;       
+
 }
+
         void LCD_WR_DATA(uint8_t data)
+
 {
+
    LCD_CS_CLR;
+
          LCD_RS_SET;
+
    //HAL_SPI_Transmit(&hspi1,&data,1,100);
+
         SPI_WriteData(data);
+
    LCD_CS_SET;
+
 }
 
 Now we have completed the work for the FPGA and CORTEX-M3 CPU. The fs file is generated in FPGA project synthesis, and the bin file is generated in CORTEX-M3 CPU project compilation. Then we just need to download it.
